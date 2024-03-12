@@ -1,4 +1,5 @@
 import Image from "next/image";
+import Gallery from "./galery";
 
 export default function Wedding() {
     return (
@@ -506,6 +507,7 @@ export default function Wedding() {
                 <div className=" pb-6 font-BrittanySignature text-4xl text-[#706A62] text-center">
                     Our Galery
                 </div>
+                <Gallery/>
             </div>
         </div>
     )

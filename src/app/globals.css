@@ -31,3 +31,27 @@ body {
     text-wrap: balance;
   }
 }
+
+@layer base {
+  @font-face {
+    font-family: 'daydream';
+    font-style: normal;
+    font-weight: 400;
+    font-display: swap;
+    src: url('./font/daydream.woff2') format('woff2');
+  }
+  @font-face {
+    font-family: 'YesevaOne';
+    font-style: normal;
+    font-weight: 400;
+    font-display: swap;
+    src: url('./font/YesevaOne-Regular.woff2') format('woff2');
+  }
+  @font-face {
+    font-family: 'BrittanySignature';
+    font-style: normal;
+    font-weight: 400;
+    font-display: swap;
+    src: url('./font/BrittanySignature.woff2') format('woff2');
+  }
+}

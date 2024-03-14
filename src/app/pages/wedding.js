@@ -20,7 +20,7 @@ export default function Wedding() {
                                 }}
                             />
                         </div>
-                        <div className=" drop-shadow-2xl text-center relative text-8xl ">
+                        <div className=" drop-shadow-2xl text-center relative text-8xl sm:text-4xl md:text-6xl  ">
                             29
                         </div>
                     </div>
@@ -37,7 +37,7 @@ export default function Wedding() {
                                 }}
                             />
                         </div>
-                        <div className=" drop-shadow-2xl text-center relative text-8xl ">
+                        <div className=" drop-shadow-2xl text-center relative text-8xl sm:text-4xl md:text-6xl  ">
                             04
                         </div>
                     </div>
@@ -54,7 +54,7 @@ export default function Wedding() {
                                 }}
                             />
                         </div>
-                        <div className=" drop-shadow-2xl text-center relative text-8xl ">
+                        <div className=" drop-shadow-2xl text-center relative text-8xl sm:text-4xl md:text-6xl  ">
                             24
                         </div>
                     </div>
@@ -201,10 +201,10 @@ export default function Wedding() {
                                     }}
                                 />
                             </div>
-                            <div className="absolute bottom-[-20px] z-10 inset-x-0 box-shadow-2xl text-center  text-8xl ">
+                            <div className="absolute bottom-[-20px] z-10 inset-x-0 box-shadow-2xl text-center  text-8xl sm:text-4xl md:text-6xl  ">
                                 29
                             </div>
-                            <div className="absolute bottom-[-24px] z-0 opacity-20 left-2 right-0 box-shadow-2xl text-center text-black text-8xl ">
+                            <div className="absolute bottom-[-24px] z-0 opacity-20 left-2 right-0 box-shadow-2xl text-center text-black text-8xl sm:text-4xl md:text-6xl  ">
                                 29
                             </div>
                         </div>
@@ -220,10 +220,10 @@ export default function Wedding() {
                                     }}
                                 />
                             </div>
-                            <div className=" absolute bottom-[-20px] inset-x-0 z-10 text-center text-8xl ">
+                            <div className=" absolute bottom-[-20px] inset-x-0 z-10 text-center text-8xl sm:text-4xl md:text-6xl  ">
                                 04
                             </div>
-                            <div className="absolute bottom-[-24px] z-0 opacity-20 left-2 right-0 box-shadow-2xl text-center text-black text-8xl ">
+                            <div className="absolute bottom-[-24px] z-0 opacity-20 left-2 right-0 box-shadow-2xl text-center text-black text-8xl sm:text-4xl md:text-6xl  ">
                                 04
                             </div>
                         </div>
@@ -239,10 +239,10 @@ export default function Wedding() {
                                     }}
                                 />
                             </div>
-                            <div className=" absolute bottom-[-20px] inset-x-0 z-10 drop-shadow-2xl text-center text-8xl ">
+                            <div className=" absolute bottom-[-20px] inset-x-0 z-10 drop-shadow-2xl text-center text-8xl sm:text-4xl md:text-6xl  ">
                                 24
                             </div>
-                            <div className="absolute bottom-[-24px] z-0 opacity-20 left-2 right-0 box-shadow-2xl text-center text-black text-8xl ">
+                            <div className="absolute bottom-[-24px] z-0 opacity-20 left-2 right-0 box-shadow-2xl text-center text-black text-8xl sm:text-4xl md:text-6xl  ">
                                 24
                             </div>
                         </div>
@@ -285,10 +285,10 @@ export default function Wedding() {
                                     }}
                                 />
                             </div>
-                            <div className="absolute bottom-[-20px] z-10 inset-x-0 box-shadow-2xl text-center  text-8xl ">
+                            <div className="absolute bottom-[-20px] z-10 inset-x-0 box-shadow-2xl text-center  text-8xl sm:text-4xl md:text-6xl  ">
                                 30
                             </div>
-                            <div className="absolute bottom-[-24px] z-0 opacity-20 left-2 right-0 box-shadow-2xl text-center text-black text-8xl ">
+                            <div className="absolute bottom-[-24px] z-0 opacity-20 left-2 right-0 box-shadow-2xl text-center text-black text-8xl sm:text-4xl md:text-6xl  ">
                                 30
                             </div>
                         </div>
@@ -304,10 +304,10 @@ export default function Wedding() {
                                     }}
                                 />
                             </div>
-                            <div className=" absolute bottom-[-20px] inset-x-0 z-10 text-center text-8xl ">
+                            <div className=" absolute bottom-[-20px] inset-x-0 z-10 text-center text-8xl sm:text-4xl md:text-6xl  ">
                                 04
                             </div>
-                            <div className="absolute bottom-[-24px] z-0 opacity-20 left-2 right-0 box-shadow-2xl text-center text-black text-8xl ">
+                            <div className="absolute bottom-[-24px] z-0 opacity-20 left-2 right-0 box-shadow-2xl text-center text-black text-8xl sm:text-4xl md:text-6xl  ">
                                 04
                             </div>
                         </div>
@@ -323,10 +323,10 @@ export default function Wedding() {
                                     }}
                                 />
                             </div>
-                            <div className=" absolute bottom-[-20px] inset-x-0 z-10 drop-shadow-2xl text-center text-8xl ">
+                            <div className=" absolute bottom-[-20px] inset-x-0 z-10 drop-shadow-2xl text-center text-8xl sm:text-4xl md:text-6xl  ">
                                 24
                             </div>
-                            <div className="absolute bottom-[-24px] z-0 opacity-20 left-2 right-0 box-shadow-2xl text-center text-black text-8xl ">
+                            <div className="absolute bottom-[-24px] z-0 opacity-20 left-2 right-0 box-shadow-2xl text-center text-black text-8xl sm:text-4xl md:text-6xl  ">
                                 24
                             </div>
                         </div>
@@ -366,7 +366,7 @@ export default function Wedding() {
                 <div className=" pb-6 font-BrittanySignature text-4xl text-[#706A62] text-center">
                     Our Love Story
                 </div>
-                <div className="grid grid-cols-2 gap-4 px-12">
+                <div className="grid grid-cols-2 gap-4 px-8">
                     <div className="bg-white">
                         <div className="px-2 pt-2">
 
@@ -579,24 +579,32 @@ export default function Wedding() {
                         <div className=" row-span-1 pt-6 text-white text-lg font-bold text-center">
                             WEDDING GIFT
                         </div>
-                        <div className=" row-span-1 mx-12 mt-6 text-white text-sm font-semibold text-center">
+                        <div className=" row-span-1 mx-12 mt-2 text-white text-sm font-semibold text-center">
                             Doa Restu Anda merupakan karunia yang sangat berarti bagi kami. Kehadiran Anda tentu kami sangat harapkan.
                         </div>
-                        <div className=" row-span-2 mx-12 self-end text-white text-sm font-semibold text-center">
+                        <div className=" row-span-1 mx-12 self-end text-white text-sm font-semibold text-center">
                             Dan jika memberi adalah ungkapan tanda kasih Anda, Anda dapat memberi hadiah melalui :
                         </div>
-                        <div className="bg-white grid grid-rows-12 mt-8 mx-16 row-span-4 opacity-50">
-                            <div className="text-[#5A4739] mt-4 row-span-3 px-3 font-semibold text-center">
-                                Mandiri - 1450014046391
-                                A.n Gusti Kadek Natia Larasati
+                        <div className=" relative mt-8 mx-16 row-span-5">
+
+                            <div className="bg-white absolute top-0 left-0 right-0 bottom-0 opacity-50">
                             </div>
-                            <div className="text-[#5A4739] mt-4 row-span-3 px-3 font-semibold text-center">
-                                LinkAja - 0821-2698-1101
-                                A.n Ngurah Putu Oka Harybuana
-                            </div>
-                            <div className="text-[#5A4739] mt-4 row-span-3 px-3 font-semibold text-center">
-                                Alamat Pengiriman Hadiah Fisik:
-                                Mutiara Asih Village B3, Jalan Bina Asih II, Jati Asih, Jatiasih, Kota Bekasi, 17423
+                            <div className="absolute top-0 left-0 right-0 bottom-0">
+                                <div className="grid grid-rows-12">
+
+                                    <div className="text-[#5A4739] mt-4 row-span-3 px-3 font-semibold text-center">
+                                        Mandiri - 1450014046391
+                                        A.n Gusti Kadek Natia Larasati
+                                    </div>
+                                    <div className="text-[#5A4739] mt-3 row-span-3 px-3 font-semibold text-center">
+                                        LinkAja - 0821-2698-1101
+                                        A.n Ngurah Putu Oka Harybuana
+                                    </div>
+                                    <div className="text-[#5A4739] mt-3 row-span-3 px-3 font-semibold text-center">
+                                        Alamat Pengiriman Hadiah Fisik:
+                                        Mutiara Asih Village B3, Jalan Bina Asih II, Jati Asih, Jatiasih, Kota Bekasi, 17423
+                                    </div>
+                                </div>
                             </div>
                         </div>
                         <div className=" row-span-2 mx-12 self-end text-white text-sm font-semibold text-center">
@@ -612,7 +620,7 @@ export default function Wedding() {
                                 </div>
                             </div>
                             <div className="bg-[#6F6F6F] rounded-xl py-3 col-span-3">
-                            <div className="text-center font-Sanchez text-lg">
+                                <div className="text-center font-Sanchez text-lg">
                                     00
                                 </div>
                                 <div className="text-center font-Sanchez text-lg">
@@ -620,7 +628,7 @@ export default function Wedding() {
                                 </div>
                             </div>
                             <div className="bg-[#6F6F6F] rounded-xl py-3 col-span-3">
-                            <div className="text-center font-Sanchez text-lg">
+                                <div className="text-center font-Sanchez text-lg">
                                     00
                                 </div>
                                 <div className="text-center font-Sanchez text-lg">
@@ -628,7 +636,7 @@ export default function Wedding() {
                                 </div>
                             </div>
                             <div className="bg-[#6F6F6F] rounded-xl py-3 col-span-3 ">
-                            <div className="text-center font-Sanchez text-lg">
+                                <div className="text-center font-Sanchez text-lg">
                                     00
                                 </div>
                                 <div className="text-center font-Sanchez text-lg">

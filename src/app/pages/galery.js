@@ -48,7 +48,7 @@ function Gallery() {
             {
                 photo.map((e, i) => {
                     return (
-                        <div className={classForGalery(i+1)}>
+                        <div key={e} className={classForGalery(i+1)}>
                             <div className=" relative h-48 lg:h-[70vh]">
                                 <Image
                                     src={e}

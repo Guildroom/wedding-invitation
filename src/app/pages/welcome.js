@@ -2,15 +2,11 @@ import Image from "next/image"
 
 export default function Welcome({ setOpen }) {
     return (
-        <>
-            <Image
-                src="/KJP-9922_websize-1-1250x1000.jpg"
+        <div className="bg-[#121010]">
+            <Image className=" opacity-50 object-cover"
+                src="/1-cover awal.jpeg"
                 fill
                 priority
-                style={{
-                    objectFit: "cover",
-                    objectPosition: '30% 100%'
-                }}
             />
             <div className=" relative grid grid-rows-12 h-screen justify-items-center">
                 <div className=" row-span-4">
@@ -49,6 +45,6 @@ export default function Welcome({ setOpen }) {
                     </div>
                 </div>
             </div>
-        </>
+        </div>
     )
 }

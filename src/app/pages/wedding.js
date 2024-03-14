@@ -7,15 +7,16 @@ export default function Wedding() {
             {/* first page */}
             <div className=" pb-7">
                 <div className=" mx-3 grid grid-cols-12 content-start text-[#F6F2E5] justify-items-center font-YesevaOne">
-                    <div className="relative my-7 bg-white col-span-4 w-11/12">
-                        <div className=" h-96 z-0">
+                    <div className="bg-[#CEC1BE] relative my-7 col-span-4 w-11/12">
+                        <div className=" h-64 z-0 lg:h-screen">
                             <Image
-                                src="/wedding-planning-ultimate-guide-recirc-Janet-Lin-Photography-f3d7c8f9fe854f69ada0fc53e6d100bd.jpg"
+                                src="/2-hal2-tgl 29.jpeg"
                                 fill
                                 priority
                                 style={{
+                                    opacity: 0.6,
                                     objectFit: "cover",
-                                    objectPosition: '30% 100%'
+                                    objectPosition: '60% 100%'
                                 }}
                             />
                         </div>
@@ -23,15 +24,16 @@ export default function Wedding() {
                             29
                         </div>
                     </div>
-                    <div className="relative my-7 bg-white col-span-4 w-11/12">
-                        <div className=" h-96 z-0">
+                    <div className="relative my-7 bg-[#CEC1BE] col-span-4 w-11/12">
+                        <div className="h-64 z-0 lg:h-screen">
                             <Image
-                                src="/wedding-planning-ultimate-guide-recirc-Janet-Lin-Photography-f3d7c8f9fe854f69ada0fc53e6d100bd.jpg"
+                                src="/3-hal2-bulan04.jpeg"
                                 fill
                                 priority
                                 style={{
+                                    opacity: 0.6,
                                     objectFit: "cover",
-                                    objectPosition: '30% 100%'
+                                    objectPosition: '60% 100%'
                                 }}
                             />
                         </div>
@@ -39,15 +41,16 @@ export default function Wedding() {
                             04
                         </div>
                     </div>
-                    <div className="relative my-7 bg-white col-span-4 w-11/12">
-                        <div className=" h-96 z-0">
+                    <div className="relative my-7 bg-[#CEC1BE] col-span-4 w-11/12">
+                        <div className=" h-64 z-0 lg:h-screen">
                             <Image
-                                src="/wedding-planning-ultimate-guide-recirc-Janet-Lin-Photography-f3d7c8f9fe854f69ada0fc53e6d100bd.jpg"
+                                src="/4-hal2-thn24.jpeg"
                                 fill
                                 priority
                                 style={{
+                                    opacity: 0.6,
                                     objectFit: "cover",
-                                    objectPosition: '30% 100%'
+                                    objectPosition: '60% 100%'
                                 }}
                             />
                         </div>
@@ -83,9 +86,9 @@ export default function Wedding() {
                     MEMPELAI
                 </div>
                 <div className=" pt-4 lg:px-[20vw]">
-                    <div className=" min-h-[70vh] max-h-full relative">
+                    <div className=" min-h-[70vh] max-h-full relative lg:h-screen">
                         <Image
-                            src="/wedding-planning-ultimate-guide-recirc-Janet-Lin-Photography-f3d7c8f9fe854f69ada0fc53e6d100bd.jpg"
+                            src="/5-mempelai pria.jpeg"
                             fill
                             priority
                             style={{
@@ -122,13 +125,14 @@ export default function Wedding() {
                     Pengantin
                 </div>
                 <div className=" pt-4 lg:px-[20vw]">
-                    <div className=" min-h-[70vh] max-h-full relative">
+                    <div className=" min-h-[70vh] max-h-full relative lg:h-screen">
                         <Image
-                            src="/wedding-planning-ultimate-guide-recirc-Janet-Lin-Photography-f3d7c8f9fe854f69ada0fc53e6d100bd.jpg"
+                            src="/6-mempelai wanita.jpeg"
                             fill
                             priority
                             style={{
                                 objectFit: "cover",
+                                objectPosition: '50% 20%'
                             }}
                         />
                         <div className="absolute bottom-[15px] left-0">
@@ -186,9 +190,9 @@ export default function Wedding() {
                     </div>
                     <div className=" mx-3 grid grid-cols-12 content-start text-[#F6F2E5] justify-items-center font-YesevaOne">
                         <div className="relative my-7 bg-white col-span-4 w-11/12">
-                            <div className=" h-48 z-0">
+                            <div className=" h-48 z-0 lg:h-[70vh]">
                                 <Image
-                                    src="/KJP-9922_websize-1-1250x1000.jpg"
+                                    src="/7-hal6-tgl29.jpeg"
                                     fill
                                     priority
                                     style={{
@@ -205,14 +209,14 @@ export default function Wedding() {
                             </div>
                         </div>
                         <div className="relative my-7 bg-white col-span-4 w-11/12">
-                            <div className=" h-48 z-0">
+                            <div className=" h-48 z-0 lg:h-[70vh]">
                                 <Image
-                                    src="/KJP-9922_websize-1-1250x1000.jpg"
+                                    src="/8-hal6-bln04.jpeg"
                                     fill
                                     priority
                                     style={{
                                         objectFit: "cover",
-                                        objectPosition: '30% 100%'
+                                        objectPosition: '30% 100%',
                                     }}
                                 />
                             </div>
@@ -224,9 +228,9 @@ export default function Wedding() {
                             </div>
                         </div>
                         <div className="relative my-7 bg-white col-span-4 w-11/12">
-                            <div className=" h-48 z-0">
+                            <div className=" h-48 z-0 lg:h-[70vh]">
                                 <Image
-                                    src="/KJP-9922_websize-1-1250x1000.jpg"
+                                    src="/9-hal6-thn24.jpeg"
                                     fill
                                     priority
                                     style={{
@@ -270,14 +274,14 @@ export default function Wedding() {
                     </div>
                     <div className=" mx-3 grid grid-cols-12 content-start text-[#F6F2E5] justify-items-center font-YesevaOne">
                         <div className="relative my-7 bg-white col-span-4 w-11/12">
-                            <div className=" h-48 z-0">
+                            <div className=" h-48 z-0 lg:h-[70vh]">
                                 <Image
-                                    src="/KJP-9922_websize-1-1250x1000.jpg"
+                                    src="/10-hal6-tgl30.jpeg"
                                     fill
                                     priority
                                     style={{
                                         objectFit: "cover",
-                                        objectPosition: '30% 100%'
+                                        objectPosition: '30% 80%'
                                     }}
                                 />
                             </div>
@@ -289,14 +293,14 @@ export default function Wedding() {
                             </div>
                         </div>
                         <div className="relative my-7 bg-white col-span-4 w-11/12">
-                            <div className=" h-48 z-0">
+                            <div className=" h-48 z-0 lg:h-[70vh]">
                                 <Image
-                                    src="/KJP-9922_websize-1-1250x1000.jpg"
+                                    src="/11-hal6-bln04.jpeg"
                                     fill
                                     priority
                                     style={{
                                         objectFit: "cover",
-                                        objectPosition: '30% 100%'
+                                        objectPosition: '30% 90%'
                                     }}
                                 />
                             </div>
@@ -308,9 +312,9 @@ export default function Wedding() {
                             </div>
                         </div>
                         <div className="relative my-7 bg-white col-span-4 w-11/12">
-                            <div className=" h-48 z-0">
+                            <div className=" h-48 z-0 lg:h-[70vh]">
                                 <Image
-                                    src="/KJP-9922_websize-1-1250x1000.jpg"
+                                    src="/12-hal6-thn24.jpeg"
                                     fill
                                     priority
                                     style={{
@@ -366,9 +370,9 @@ export default function Wedding() {
                     <div className="bg-white">
                         <div className="px-2 pt-2">
 
-                            <div className=" relative h-48">
+                            <div className=" relative h-48 lg:h-[70vh]">
                                 <Image
-                                    src="/KJP-9922_websize-1-1250x1000.jpg"
+                                    src="/97d91701-8093-4002-ac60-a78317d26d36.jpg"
                                     fill
                                     priority
                                     style={{
@@ -388,9 +392,9 @@ export default function Wedding() {
                     <div className="bg-white">
                         <div className="px-2 pt-2">
 
-                            <div className=" relative h-48">
+                            <div className=" relative h-48 lg:h-[70vh]">
                                 <Image
-                                    src="/KJP-9922_websize-1-1250x1000.jpg"
+                                    src="/CB903E15-D8A5-4BF4-8CF2-9CB263B97705.jpg"
                                     fill
                                     priority
                                     style={{
@@ -410,14 +414,14 @@ export default function Wedding() {
                     <div className="bg-white">
                         <div className="px-2 pt-2">
 
-                            <div className=" relative h-48">
+                            <div className=" relative h-48 lg:h-[70vh]">
                                 <Image
-                                    src="/KJP-9922_websize-1-1250x1000.jpg"
+                                    src="/IMG_2238.png"
                                     fill
                                     priority
                                     style={{
                                         objectFit: "cover",
-                                        objectPosition: '30% 100%'
+                                        objectPosition: '50% 70%'
                                     }}
                                 />
                             </div>
@@ -432,14 +436,14 @@ export default function Wedding() {
                     <div className="bg-white">
                         <div className="px-2 pt-2">
 
-                            <div className=" relative h-48">
+                            <div className=" relative h-48 lg:h-[70vh]">
                                 <Image
-                                    src="/KJP-9922_websize-1-1250x1000.jpg"
+                                    src="/IMG_2496.PNG"
                                     fill
                                     priority
                                     style={{
                                         objectFit: "cover",
-                                        objectPosition: '30% 100%'
+                                        objectPosition: '30% 50%'
                                     }}
                                 />
                             </div>
@@ -455,14 +459,14 @@ export default function Wedding() {
                     <div className="bg-white">
                         <div className="px-2 pt-2">
 
-                            <div className=" relative h-48">
+                            <div className=" relative h-48 lg:h-[70vh]">
                                 <Image
-                                    src="/KJP-9922_websize-1-1250x1000.jpg"
+                                    src="/IMG_1473.png"
                                     fill
                                     priority
                                     style={{
                                         objectFit: "cover",
-                                        objectPosition: '30% 100%'
+                                        objectPosition: '30% 80%'
                                     }}
                                 />
                             </div>
@@ -479,9 +483,9 @@ export default function Wedding() {
                     <div className="bg-white">
                         <div className="px-2 pt-2">
 
-                            <div className=" relative h-48">
+                            <div className=" relative h-48 lg:h-[70vh]">
                                 <Image
-                                    src="/KJP-9922_websize-1-1250x1000.jpg"
+                                    src="/1B5288D6-FEBC-4273-83A8-ED3591B0942D.jpg"
                                     fill
                                     priority
                                     style={{
@@ -502,12 +506,138 @@ export default function Wedding() {
                     </div>
                 </div>
             </div>
+            {/* doa dan ucapan */}
+            <div className=" h-32 bg-gradient-to-b from-[#F6F2E5] to-[#828181]" />
+            <div className=" bg-[#121010]">
+                <div className=" relative h-screen lg:h-[100vh]">
+                    <div>
+                        <Image
+                            src="/25-doa dan ucapan.jpeg"
+                            fill
+                            priority
+                            style={{
+                                objectFit: "cover",
+                                objectPosition: '30% 50%',
+                                opacity: 0.5
+                            }}
+                        />
+                    </div>
+                    <div className="absolute grid grid-rows-12 h-screen lg:h-[100vh] top-0 left-0 right-0">
+                        <div className=" pt-12 text-white text-lg font-bold text-center">
+                            DOA DAN UCAPAN
+                        </div>
+                        <div className="bg-[#FFFFFF] row-span-11 m-12 opacity-60 rounded-3xl ">
+                        </div>
+                        <div className=" absolute grid justify-center grid-rows-12 h-screen lg:h-[100vh] lg:justify-start lg:pl-12 top-0 left-0 right-0">
+                            <div />
+                            <div className="row-span-11 m-12 rounded-3xl ">
+                                <div className=" bg-white mt-10 opacity-100 w-[65vw] rounded-xl lg:w-[15vw]">
+                                    <div className="text-black ml-4 lg:py-[2px]">
+                                        Name
+                                    </div>
+                                </div>
+                                <div className=" bg-white mt-5 opacity-100 w-[65vw] rounded-xl lg:w-[30vw]">
+                                    <div className="text-black ml-4 pt-2 pb-10 ">
+                                        Ucapan
+                                    </div>
+                                </div>
+                                <div className=" bg-[#6F6F6F] justify-start mt-5 opacity-100 w-[15vw] rounded-2xl">
+                                    <div className="text-white py-1 text-center ">
+                                        Kirim
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div className=" h-32 bg-gradient-to-b from-[#828181] to-[#F6F2E5]" />
             {/* Galery */}
             <div className=" pt-11">
                 <div className=" pb-6 font-BrittanySignature text-4xl text-[#706A62] text-center">
                     Our Galery
                 </div>
-                <Gallery/>
+                <Gallery />
+            </div>
+
+            <div className=" h-32 bg-gradient-to-b  from-[#F6F2E5] to-[#666666]" />
+            <div className="bg-[#EBEBEB]">
+                <div className=" relative h-screen lg:h-[100vh]">
+                    <div>
+                        <Image
+                            src="/26-wedding gift.jpeg"
+                            fill
+                            priority
+                            style={{
+                                objectFit: "cover",
+                                objectPosition: '30% 20%',
+                                opacity: 0.8
+                            }}
+                        />
+                    </div>
+                    <div className="absolute grid grid-rows-12 h-screen lg:h-[100vh] top-0 left-0 right-0">
+                        <div className=" row-span-1 pt-6 text-white text-lg font-bold text-center">
+                            WEDDING GIFT
+                        </div>
+                        <div className=" row-span-1 mx-12 mt-6 text-white text-sm font-semibold text-center">
+                            Doa Restu Anda merupakan karunia yang sangat berarti bagi kami. Kehadiran Anda tentu kami sangat harapkan.
+                        </div>
+                        <div className=" row-span-2 mx-12 self-end text-white text-sm font-semibold text-center">
+                            Dan jika memberi adalah ungkapan tanda kasih Anda, Anda dapat memberi hadiah melalui :
+                        </div>
+                        <div className="bg-white grid grid-rows-12 mt-8 mx-16 row-span-4 opacity-50">
+                            <div className="text-[#5A4739] mt-4 row-span-3 px-3 font-semibold text-center">
+                                Mandiri - 1450014046391
+                                A.n Gusti Kadek Natia Larasati
+                            </div>
+                            <div className="text-[#5A4739] mt-4 row-span-3 px-3 font-semibold text-center">
+                                LinkAja - 0821-2698-1101
+                                A.n Ngurah Putu Oka Harybuana
+                            </div>
+                            <div className="text-[#5A4739] mt-4 row-span-3 px-3 font-semibold text-center">
+                                Alamat Pengiriman Hadiah Fisik:
+                                Mutiara Asih Village B3, Jalan Bina Asih II, Jati Asih, Jatiasih, Kota Bekasi, 17423
+                            </div>
+                        </div>
+                        <div className=" row-span-2 mx-12 self-end text-white text-sm font-semibold text-center">
+                            Merupakan sebuah kehormatan dan kebahagian bag kami apabila Bapak/Ibu/Saudara/i berkenan hadir untuk memberikan doa restu. Atas kehadirannya kami ucapkan terima kasih.
+                        </div>
+                        <div className=" row-span-1 mt-4 mx-4 grid grid-cols-12 gap-4 justify-center">
+                            <div className="bg-[#6F6F6F] rounded-xl py-3 col-span-3 ">
+                                <div className="text-center font-Sanchez text-lg">
+                                    00
+                                </div>
+                                <div className="text-center font-Sanchez text-lg">
+                                    Hari
+                                </div>
+                            </div>
+                            <div className="bg-[#6F6F6F] rounded-xl py-3 col-span-3">
+                            <div className="text-center font-Sanchez text-lg">
+                                    00
+                                </div>
+                                <div className="text-center font-Sanchez text-lg">
+                                    Hari
+                                </div>
+                            </div>
+                            <div className="bg-[#6F6F6F] rounded-xl py-3 col-span-3">
+                            <div className="text-center font-Sanchez text-lg">
+                                    00
+                                </div>
+                                <div className="text-center font-Sanchez text-lg">
+                                    Hari
+                                </div>
+                            </div>
+                            <div className="bg-[#6F6F6F] rounded-xl py-3 col-span-3 ">
+                            <div className="text-center font-Sanchez text-lg">
+                                    00
+                                </div>
+                                <div className="text-center font-Sanchez text-lg">
+                                    Hari
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
     )

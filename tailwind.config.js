@@ -13,6 +13,7 @@ module.exports = {
       'daydream': ['daydream'],
       'YesevaOne': ['YesevaOne'],
       'BrittanySignature': ['BrittanySignature'],
+      'Sanchez':['Sanchez'],
     },
     extend: {
       backgroundImage: {

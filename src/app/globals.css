@@ -54,4 +54,11 @@ body {
     font-display: swap;
     src: url('./font/BrittanySignature.woff2') format('woff2');
   }
+  @font-face {
+    font-family: 'Sanchez';
+    font-style: normal;
+    font-weight: 400;
+    font-display: swap;
+    src: url('./font/Sanchez-Regular.woff2') format('woff2');
+  }
 }

@@ -25,7 +25,7 @@ export default function Wedding() {
                                 }}
                             />
                         </div>
-                        <div className=" drop-shadow-2xl text-center relative text-4xl md:6xl sm:8xl  ">
+                        <div className=" drop-shadow-2xl text-center relative text-6xl md:6xl sm:8xl  ">
                             29
                         </div>
                     </div>
@@ -42,7 +42,7 @@ export default function Wedding() {
                                 }}
                             />
                         </div>
-                        <div className=" drop-shadow-2xl text-center relative text-4xl md:6xl sm:8xl  ">
+                        <div className=" drop-shadow-2xl text-center relative text-6xl md:6xl sm:8xl  ">
                             04
                         </div>
                     </div>
@@ -59,7 +59,7 @@ export default function Wedding() {
                                 }}
                             />
                         </div>
-                        <div className=" drop-shadow-2xl text-center relative text-4xl md:6xl sm:8xl  ">
+                        <div className=" drop-shadow-2xl text-center relative text-6xl md:6xl sm:8xl  ">
                             24
                         </div>
                     </div>
@@ -206,10 +206,10 @@ export default function Wedding() {
                                     }}
                                 />
                             </div>
-                            <div className="absolute bottom-[-20px] z-10 inset-x-0 box-shadow-2xl text-center  text-4xl md:6xl sm:8xl  ">
+                            <div className="absolute bottom-[-20px] z-10 inset-x-0 box-shadow-2xl text-center  text-6xl md:6xl sm:8xl  ">
                                 29
                             </div>
-                            <div className="absolute bottom-[-24px] z-0 opacity-20 left-2 right-0 box-shadow-2xl text-center text-black text-4xl md:6xl sm:8xl  ">
+                            <div className="absolute bottom-[-24px] z-0 opacity-20 left-2 right-0 box-shadow-2xl text-center text-black text-6xl md:6xl sm:8xl  ">
                                 29
                             </div>
                         </div>
@@ -225,10 +225,10 @@ export default function Wedding() {
                                     }}
                                 />
                             </div>
-                            <div className=" absolute bottom-[-20px] inset-x-0 z-10 text-center text-4xl md:6xl sm:8xl  ">
+                            <div className=" absolute bottom-[-20px] inset-x-0 z-10 text-center text-6xl md:6xl sm:8xl  ">
                                 04
                             </div>
-                            <div className="absolute bottom-[-24px] z-0 opacity-20 left-2 right-0 box-shadow-2xl text-center text-black text-4xl md:6xl sm:8xl  ">
+                            <div className="absolute bottom-[-24px] z-0 opacity-20 left-2 right-0 box-shadow-2xl text-center text-black text-6xl md:6xl sm:8xl  ">
                                 04
                             </div>
                         </div>
@@ -244,10 +244,10 @@ export default function Wedding() {
                                     }}
                                 />
                             </div>
-                            <div className=" absolute bottom-[-20px] inset-x-0 z-10 drop-shadow-2xl text-center text-4xl md:6xl sm:8xl  ">
+                            <div className=" absolute bottom-[-20px] inset-x-0 z-10 drop-shadow-2xl text-center text-6xl md:6xl sm:8xl  ">
                                 24
                             </div>
-                            <div className="absolute bottom-[-24px] z-0 opacity-20 left-2 right-0 box-shadow-2xl text-center text-black text-4xl md:6xl sm:8xl  ">
+                            <div className="absolute bottom-[-24px] z-0 opacity-20 left-2 right-0 box-shadow-2xl text-center text-black text-6xl md:6xl sm:8xl  ">
                                 24
                             </div>
                         </div>
@@ -290,10 +290,10 @@ export default function Wedding() {
                                     }}
                                 />
                             </div>
-                            <div className="absolute bottom-[-20px] z-10 inset-x-0 box-shadow-2xl text-center  text-4xl md:6xl sm:8xl  ">
+                            <div className="absolute bottom-[-20px] z-10 inset-x-0 box-shadow-2xl text-center  text-6xl md:6xl sm:8xl  ">
                                 30
                             </div>
-                            <div className="absolute bottom-[-24px] z-0 opacity-20 left-2 right-0 box-shadow-2xl text-center text-black text-4xl md:6xl sm:8xl  ">
+                            <div className="absolute bottom-[-24px] z-0 opacity-20 left-2 right-0 box-shadow-2xl text-center text-black text-6xl md:6xl sm:8xl  ">
                                 30
                             </div>
                         </div>
@@ -309,10 +309,10 @@ export default function Wedding() {
                                     }}
                                 />
                             </div>
-                            <div className=" absolute bottom-[-20px] inset-x-0 z-10 text-center text-4xl md:6xl sm:8xl  ">
+                            <div className=" absolute bottom-[-20px] inset-x-0 z-10 text-center text-6xl md:6xl sm:8xl  ">
                                 04
                             </div>
-                            <div className="absolute bottom-[-24px] z-0 opacity-20 left-2 right-0 box-shadow-2xl text-center text-black text-4xl md:6xl sm:8xl  ">
+                            <div className="absolute bottom-[-24px] z-0 opacity-20 left-2 right-0 box-shadow-2xl text-center text-black text-6xl md:6xl sm:8xl  ">
                                 04
                             </div>
                         </div>
@@ -328,10 +328,10 @@ export default function Wedding() {
                                     }}
                                 />
                             </div>
-                            <div className=" absolute bottom-[-20px] inset-x-0 z-10 drop-shadow-2xl text-center text-4xl md:6xl sm:8xl  ">
+                            <div className=" absolute bottom-[-20px] inset-x-0 z-10 drop-shadow-2xl text-center text-6xl md:6xl sm:8xl  ">
                                 24
                             </div>
-                            <div className="absolute bottom-[-24px] z-0 opacity-20 left-2 right-0 box-shadow-2xl text-center text-black text-4xl md:6xl sm:8xl  ">
+                            <div className="absolute bottom-[-24px] z-0 opacity-20 left-2 right-0 box-shadow-2xl text-center text-black text-6xl md:6xl sm:8xl  ">
                                 24
                             </div>
                         </div>

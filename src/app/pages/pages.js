@@ -6,10 +6,7 @@ import Welcome from "./welcome";
 
 
 export default function Pages() {
-
-
   const [open, setOpen] = useState(false)
-
   return (
     <main>
       <Music/>

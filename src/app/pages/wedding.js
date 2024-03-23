@@ -25,7 +25,7 @@ export default function Wedding() {
                                 }}
                             />
                         </div>
-                        <div className=" drop-shadow-2xl text-center relative text-6xl md:6xl sm:8xl  ">
+                        <div className=" drop-shadow-2xl text-center relative text-6xl md:text-6xl sm:text-8xl  ">
                             29
                         </div>
                     </div>
@@ -42,7 +42,7 @@ export default function Wedding() {
                                 }}
                             />
                         </div>
-                        <div className=" drop-shadow-2xl text-center relative text-6xl md:6xl sm:8xl  ">
+                        <div className=" drop-shadow-2xl text-center relative text-6xl md:text-6xl sm:text-8xl  ">
                             04
                         </div>
                     </div>
@@ -59,7 +59,7 @@ export default function Wedding() {
                                 }}
                             />
                         </div>
-                        <div className=" drop-shadow-2xl text-center relative text-6xl md:6xl sm:8xl  ">
+                        <div className=" drop-shadow-2xl text-center relative text-6xl md:text-6xl sm:text-8xl  ">
                             24
                         </div>
                     </div>
@@ -206,10 +206,10 @@ export default function Wedding() {
                                     }}
                                 />
                             </div>
-                            <div className="absolute bottom-[-20px] z-10 inset-x-0 box-shadow-2xl text-center  text-6xl md:6xl sm:8xl  ">
+                            <div className="absolute bottom-[-20px] z-10 inset-x-0 box-shadow-2xl text-center  text-6xl md:text-6xl sm:text-8xl  ">
                                 29
                             </div>
-                            <div className="absolute bottom-[-24px] z-0 opacity-20 left-2 right-0 box-shadow-2xl text-center text-black text-6xl md:6xl sm:8xl  ">
+                            <div className="absolute bottom-[-24px] z-0 opacity-20 left-2 right-0 box-shadow-2xl text-center text-black text-6xl md:text-6xl sm:text-8xl  ">
                                 29
                             </div>
                         </div>
@@ -225,10 +225,10 @@ export default function Wedding() {
                                     }}
                                 />
                             </div>
-                            <div className=" absolute bottom-[-20px] inset-x-0 z-10 text-center text-6xl md:6xl sm:8xl  ">
+                            <div className=" absolute bottom-[-20px] inset-x-0 z-10 text-center text-6xl md:text-6xl sm:text-8xl  ">
                                 04
                             </div>
-                            <div className="absolute bottom-[-24px] z-0 opacity-20 left-2 right-0 box-shadow-2xl text-center text-black text-6xl md:6xl sm:8xl  ">
+                            <div className="absolute bottom-[-24px] z-0 opacity-20 left-2 right-0 box-shadow-2xl text-center text-black text-6xl md:text-6xl sm:text-8xl  ">
                                 04
                             </div>
                         </div>
@@ -244,10 +244,10 @@ export default function Wedding() {
                                     }}
                                 />
                             </div>
-                            <div className=" absolute bottom-[-20px] inset-x-0 z-10 drop-shadow-2xl text-center text-6xl md:6xl sm:8xl  ">
+                            <div className=" absolute bottom-[-20px] inset-x-0 z-10 drop-shadow-2xl text-center text-6xl md:text-6xl sm:text-8xl  ">
                                 24
                             </div>
-                            <div className="absolute bottom-[-24px] z-0 opacity-20 left-2 right-0 box-shadow-2xl text-center text-black text-6xl md:6xl sm:8xl  ">
+                            <div className="absolute bottom-[-24px] z-0 opacity-20 left-2 right-0 box-shadow-2xl text-center text-black text-6xl md:text-6xl sm:text-8xl  ">
                                 24
                             </div>
                         </div>
@@ -290,10 +290,10 @@ export default function Wedding() {
                                     }}
                                 />
                             </div>
-                            <div className="absolute bottom-[-20px] z-10 inset-x-0 box-shadow-2xl text-center  text-6xl md:6xl sm:8xl  ">
+                            <div className="absolute bottom-[-20px] z-10 inset-x-0 box-shadow-2xl text-center  text-6xl md:text-6xl sm:text-8xl  ">
                                 30
                             </div>
-                            <div className="absolute bottom-[-24px] z-0 opacity-20 left-2 right-0 box-shadow-2xl text-center text-black text-6xl md:6xl sm:8xl  ">
+                            <div className="absolute bottom-[-24px] z-0 opacity-20 left-2 right-0 box-shadow-2xl text-center text-black text-6xl md:text-6xl sm:text-8xl  ">
                                 30
                             </div>
                         </div>
@@ -309,10 +309,10 @@ export default function Wedding() {
                                     }}
                                 />
                             </div>
-                            <div className=" absolute bottom-[-20px] inset-x-0 z-10 text-center text-6xl md:6xl sm:8xl  ">
+                            <div className=" absolute bottom-[-20px] inset-x-0 z-10 text-center text-6xl md:text-6xl sm:text-8xl  ">
                                 04
                             </div>
-                            <div className="absolute bottom-[-24px] z-0 opacity-20 left-2 right-0 box-shadow-2xl text-center text-black text-6xl md:6xl sm:8xl  ">
+                            <div className="absolute bottom-[-24px] z-0 opacity-20 left-2 right-0 box-shadow-2xl text-center text-black text-6xl md:text-6xl sm:text-8xl  ">
                                 04
                             </div>
                         </div>
@@ -328,10 +328,10 @@ export default function Wedding() {
                                     }}
                                 />
                             </div>
-                            <div className=" absolute bottom-[-20px] inset-x-0 z-10 drop-shadow-2xl text-center text-6xl md:6xl sm:8xl  ">
+                            <div className=" absolute bottom-[-20px] inset-x-0 z-10 drop-shadow-2xl text-center text-6xl md:text-6xl sm:text-8xl  ">
                                 24
                             </div>
-                            <div className="absolute bottom-[-24px] z-0 opacity-20 left-2 right-0 box-shadow-2xl text-center text-black text-6xl md:6xl sm:8xl  ">
+                            <div className="absolute bottom-[-24px] z-0 opacity-20 left-2 right-0 box-shadow-2xl text-center text-black text-6xl md:text-6xl sm:text-8xl  ">
                                 24
                             </div>
                         </div>
@@ -387,10 +387,10 @@ export default function Wedding() {
                                 />
                             </div>
                         </div>
-                        <div className="text-[#706A62] text-center pt-3">
+                        <div className="text-[#706A62] text-center pt-3 text-sm">
                             The Day We Met
                         </div>
-                        <div className="text-[#706A62] text-center pt-[1px]">
+                        <div className="text-[#706A62] text-center pt-[1px] text-sm">
                             03-06-2022
                         </div>
                     </div>
@@ -409,10 +409,10 @@ export default function Wedding() {
                                 />
                             </div>
                         </div>
-                        <div className="text-[#706A62] text-center pt-3">
+                        <div className="text-[#706A62] text-center pt-3 text-sm">
                             The Day I Said Yes
                         </div>
-                        <div className="text-[#706A62] text-center pt-[1px]">
+                        <div className="text-[#706A62] text-center pt-[1px] text-sm">
                             20-08-2022
                         </div>
                     </div>
@@ -431,10 +431,10 @@ export default function Wedding() {
                                 />
                             </div>
                         </div>
-                        <div className="text-[#706A62] text-center pt-3">
+                        <div className="text-[#706A62] text-center pt-3 text-sm">
                             Our First Date
                         </div>
-                        <div className="text-[#706A62] text-center pt-[1px]">
+                        <div className="text-[#706A62] text-center pt-[1px] text-sm">
                             08-08-2022
                         </div>
                     </div>
@@ -453,11 +453,11 @@ export default function Wedding() {
                                 />
                             </div>
                         </div>
-                        <div className="text-[#706A62] text-center pt-3">
+                        <div className="text-[#706A62] text-center pt-3 text-sm">
                             First Family Meeting
 
                         </div>
-                        <div className="text-[#706A62] text-center pt-[1px]">
+                        <div className="text-[#706A62] text-center pt-[1px] text-sm">
                             28-09-2023
                         </div>
                     </div>
@@ -476,11 +476,11 @@ export default function Wedding() {
                                 />
                             </div>
                         </div>
-                        <div className="text-[#706A62] text-center pt-3">
+                        <div className="text-[#706A62] text-center pt-3 text-sm">
                             Our First Photo
 
                         </div>
-                        <div className="text-[#706A62] text-center pt-[1px]">
+                        <div className="text-[#706A62] text-center pt-[1px] text-sm">
                             14-08-2022
                         </div>
 
@@ -500,11 +500,11 @@ export default function Wedding() {
                                 />
                             </div>
                         </div>
-                        <div className="text-[#706A62] text-center pt-3">
+                        <div className="text-[#706A62] text-center pt-3 text-sm">
                             A Ring from You
 
                         </div>
-                        <div className="text-[#706A62] text-center pt-[1px]">
+                        <div className="text-[#706A62] text-center pt-[1px] text-sm">
                             22-12-2023
                         </div>
 

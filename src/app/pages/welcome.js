@@ -1,6 +1,19 @@
 import Image from "next/image"
+import { useEffect, useState } from "react"
 
 export default function Welcome({ setOpen }) {
+
+    const [name, setName] = useState('')
+
+    useEffect(() => {
+        const searchParams = new URLSearchParams(window.location.search);
+        const nameTemp =searchParams.get('name')
+        if(nameTemp){
+            setName(nameTemp)
+        }
+      }, []);
+
+
     return (
         <div className="bg-[#121010]">
             <Image className=" opacity-50 object-cover"
@@ -29,7 +42,7 @@ export default function Welcome({ setOpen }) {
                     <div className='' style={{
                         fontWeight: 600
                     }}>
-                        Bagas ('Perlu DIganti')
+                        {name}
                     </div>
                     <div className=''>
                         <button onClick={() => {

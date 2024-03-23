@@ -1,18 +1,29 @@
-"use client"
-import { useEffect, useState } from "react";
-import Welcome from "./pages/welcome";
-import Wedding from "./pages/wedding";
+import { connectToDataBase } from "./pages/api/api";
+import Pages from "./pages/pages";
+
+
+const get = async (request) => { 
+    try {
+      await connectToDataBase();    
+    } catch (error) {
+      console.log(error)
+    }
+  };
+
+
+// const response = await fetch('/api/database/save', {
+//   method: 'POST',
+//   headers: {
+//     'Content-Type': 'application/json',
+//   },
+//   body: JSON.stringify({ data: 'abc' }),
+// });
 
 export default function Home() {
-
-  const [open, setOpen] = useState(false)
-  useEffect(() => {
-
-  }, [])
-
+  // get()
   return (
     <main>
-      {open? <Wedding/>:<Welcome setOpen={setOpen}/> }
+      <Pages/>
     </main>
   );
 }

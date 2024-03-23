@@ -1,7 +1,12 @@
 import Image from "next/image";
 import Gallery from "./galery";
+import { useState } from "react";
 
 export default function Wedding() {
+    const [name,setName] = useState('')
+    const [ucapan,setUcapan] = useState('')
+
+
     return (
         <div className="bg-[#F6F2E5]">
             {/* first page */}
@@ -159,21 +164,21 @@ export default function Wedding() {
             </div>
             {/* sane Mempendes */}
             <div className=" py-9 grid justify-center">
-                <dic className=" pb-6 uppercase text-lg text-center text-[#5A4739]" style={{
+                <div className=" pb-6 uppercase text-lg text-center text-[#5A4739]" style={{
                     fontWeight: 700
                 }}>
                     Sane Mempendes
-                </dic>
-                <dic className=" capitalize text-lg text-center text-[#5A4739]" style={{
+                </div>
+                <div className=" capitalize text-lg text-center text-[#5A4739]" style={{
                     fontWeight: 500
                 }}>
                     Ni Made Ayu Agatha Widya L.
-                </dic>
-                <dic className=" capitalize text-lg text-center text-[#5A4739]" style={{
+                </div>
+                <div className=" capitalize text-lg text-center text-[#5A4739]" style={{
                     fontWeight: 500
                 }}>
                     I Putu Ngurah Rama Aldi S.
-                </dic>
+                </div>
             </div>
             {/* date */}
             <div className=" py-9">
@@ -532,19 +537,22 @@ export default function Wedding() {
                             <div />
                             <div className="row-span-11 m-12 rounded-3xl ">
                                 <div className=" bg-white mt-10 opacity-100 w-[65vw] rounded-xl lg:w-[15vw]">
-                                    <div className="text-black ml-4 lg:py-[2px]">
-                                        Name
-                                    </div>
+                                    <input placeholder={'Nama'} value={name} onChange={(e)=>{setName(e.target.input)}} className="text-black pl-4 lg:py-[2px] w-full rounded-xl"/>
                                 </div>
                                 <div className=" bg-white mt-5 opacity-100 w-[65vw] rounded-xl lg:w-[30vw]">
-                                    <div className="text-black ml-4 pt-2 pb-10 ">
-                                        Ucapan
-                                    </div>
+                                    <input placeholder={'Ucapan'} value={ucapan} onChange={(e)=>{setUcapan(e.target.input)}} className="text-black pl-4 pt-2 pb-10 w-full rounded-xl "/>
                                 </div>
                                 <div className=" bg-[#6F6F6F] justify-start mt-5 opacity-100 w-[15vw] rounded-2xl">
-                                    <div className="text-white py-1 text-center ">
+                                    <div onClick={()=>{}} className="text-white py-1 text-center cursor-pointer">
                                         Kirim
                                     </div>
+                                </div>
+                                {/* ucapan */}
+                                <div className="pt-5">
+                                   <div className=" text-black text-sm">
+                                    {/* TODO: need to make this responsive */}
+                                        <span className="font-bold">Name</span> Ucapan
+                                   </div>
                                 </div>
                             </div>
                         </div>

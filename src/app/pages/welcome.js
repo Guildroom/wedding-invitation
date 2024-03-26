@@ -32,7 +32,7 @@ export default function Welcome({ setOpen }) {
                         PAWIWAHAN LAN MEPANDES
                     </div>
                     <div className='text-white font-daydream text-7xl'>
-                        Oka & Laras
+                        Oka <span className="font-Dreaming">&</span> Laras
                     </div>
                 </div>
                 <div className='text-white row-span-3 grid content-between justify-items-center'>

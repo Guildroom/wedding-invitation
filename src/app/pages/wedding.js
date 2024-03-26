@@ -70,8 +70,8 @@ export default function Wedding() {
                 }}>
                     PAWIWAHAN LAN MEPANDES
                 </div>
-                <div className=' mt-5 font-daydream grid justify-items-center text-7xl text-[#5A4739]'>
-                    Oka & Laras
+                <div className=' inlin mt-6 font-daydream text-center text-7xl text-[#5A4739]'>
+                    Oka <span className="font-Dreaming">&</span> Laras
                 </div>
                 <div className=' mt-12 grid justify-items-center text-sm text-[#5A4739]' style={{
                     fontWeight: 700

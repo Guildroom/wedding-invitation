@@ -14,7 +14,8 @@ module.exports = {
       'YesevaOne': ['YesevaOne'],
       'BrittanySignature': ['BrittanySignature'],
       'Sanchez':['Sanchez'],
-      'Glacia':['Glacia']
+      'Dreaming':['Dreaming'],
+      'Glacia':['Glacia'],
     },
     extend: {
       backgroundImage: {

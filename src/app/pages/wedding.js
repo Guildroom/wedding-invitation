@@ -1,10 +1,11 @@
 import Image from "next/image";
 import Gallery from "./galery";
 import { useState } from "react";
+import { Timer } from "./timer";
 
 export default function Wedding() {
-    const [name,setName] = useState('')
-    const [ucapan,setUcapan] = useState('')
+    const [name, setName] = useState('')
+    const [ucapan, setUcapan] = useState('')
 
 
     return (
@@ -101,7 +102,7 @@ export default function Wedding() {
                             }}
                         />
                         <div className="absolute bottom-[15px] left-0">
-                            <div className="bg-[#CEC1BE] opacity-75 py-[16px] pl-[8px] pr-[20vw] rounded-r-lg">
+                            <div className="bg-[#121010] opacity-75 py-[16px] pl-[8px] pr-[20vw] rounded-r-lg">
                                 <div className="uppercase text-sm" style={{
                                     fontWeight: 700
                                 }}>
@@ -136,7 +137,7 @@ export default function Wedding() {
                             }}
                         />
                         <div className="absolute bottom-[15px] left-0">
-                            <div className="bg-[#CEC1BE] opacity-75 py-[16px] pl-[8px] pr-[20vw] rounded-r-lg">
+                            <div className="bg-[#121010] opacity-75 py-[16px] pl-[8px] pr-[20vw] rounded-r-lg">
                                 <div className="uppercase text-sm" style={{
                                     fontWeight: 700
                                 }}>
@@ -270,7 +271,7 @@ export default function Wedding() {
                     <div className=" pt-9 uppercase text-center text-[#5A4739]" style={{
                         fontWeight: 700
                     }}>
-                        Natab & mepandes
+                        RESEPSI
                     </div>
                     <div className=" mx-3 grid grid-cols-12 content-start text-[#F6F2E5] justify-items-center font-YesevaOne">
                         <div className="relative my-7 bg-white col-span-4 w-11/12">
@@ -334,17 +335,17 @@ export default function Wedding() {
                     <div className=" pt-1 text-center text-[#5A4739]" style={{
                         fontWeight: 500
                     }}>
-                        Senin
+                        Selasa
                     </div>
                     <div className=" pt-1 text-center text-[#5A4739]" style={{
                         fontWeight: 500
                     }}>
-                        29 April 2024
+                        30 April 2024
                     </div>
                     <div className=" pt-1 text-center text-[#5A4739]" style={{
                         fontWeight: 500
                     }}>
-                        12.00 - 15.00 WITA
+                        12.00 - 21.00 WITA
                     </div>
                     <div className=" px-2 pt-1 text-center text-[#5A4739]" style={{
                         fontWeight: 500
@@ -532,22 +533,22 @@ export default function Wedding() {
                             <div />
                             <div className="row-span-11 m-12 rounded-3xl ">
                                 <div className=" bg-white mt-10 opacity-100 w-[65vw] rounded-xl lg:w-[15vw]">
-                                    <input placeholder={'Nama'} value={name} onChange={(e)=>{setName(e.target.input)}} className="text-black pl-4 lg:py-[2px] w-full rounded-xl"/>
+                                    <input placeholder={'Nama'} value={name} onChange={(e) => { setName(e.target.input) }} className="text-black pl-4 lg:py-[2px] w-full rounded-xl" />
                                 </div>
                                 <div className=" bg-white mt-5 opacity-100 w-[65vw] rounded-xl lg:w-[30vw]">
-                                    <input placeholder={'Ucapan'} value={ucapan} onChange={(e)=>{setUcapan(e.target.input)}} className="text-black pl-4 pt-2 pb-10 w-full rounded-xl "/>
+                                    <input placeholder={'Ucapan'} value={ucapan} onChange={(e) => { setUcapan(e.target.input) }} className="text-black pl-4 pt-2 pb-10 w-full rounded-xl " />
                                 </div>
                                 <div className=" bg-[#6F6F6F] justify-start mt-5 opacity-100 w-[15vw] rounded-2xl">
-                                    <div onClick={()=>{}} className="text-white py-1 text-center cursor-pointer">
+                                    <div onClick={() => { }} className="text-white py-1 text-center cursor-pointer">
                                         Kirim
                                     </div>
                                 </div>
                                 {/* ucapan */}
                                 <div className="pt-5">
-                                   <div className=" text-black text-sm">
-                                    {/* TODO: need to make this responsive */}
+                                    <div className=" text-black text-sm">
+                                        {/* TODO: need to make this responsive */}
                                         <span className="font-bold">Name</span> Ucapan
-                                   </div>
+                                    </div>
                                 </div>
                             </div>
                         </div>
@@ -565,7 +566,7 @@ export default function Wedding() {
 
             <div className=" h-32 bg-gradient-to-b  from-[#F6F2E5] to-[#666666]" />
             <div className="bg-[#EBEBEB]">
-                <div className=" relative h-screen lg:h-[100vh]">
+                <div className=" relative h-[100vh] lg:h-[100vh]">
                     <div>
                         <Image
                             src="/26-wedding gift.jpeg"
@@ -578,73 +579,36 @@ export default function Wedding() {
                             }}
                         />
                     </div>
-                    <div className="absolute grid grid-rows-12 h-screen lg:h-[100vh] top-0 left-0 right-0">
+                    <div className="absolute h-full lg:h-[100vh] top-0 left-0 right-0">
                         <div className=" row-span-1 pt-6 text-white text-lg font-bold text-center">
                             WEDDING GIFT
                         </div>
-                        <div className=" row-span-1 mx-12 mt-2 text-white text-sm font-semibold text-center">
+                        <div className=" row-span-1 mx-12 mt-3 text-white text-sm font-semibold text-center">
                             Doa Restu Anda merupakan karunia yang sangat berarti bagi kami. Kehadiran Anda tentu kami sangat harapkan.
                         </div>
-                        <div className=" row-span-1 mx-12 self-end text-white text-sm font-semibold text-center">
+                        <div className=" row-span-1 mx-12 mt-3 self-end text-white text-sm font-semibold text-center">
                             Dan jika memberi adalah ungkapan tanda kasih Anda, Anda dapat memberi hadiah melalui :
                         </div>
-                        <div className=" relative mt-8 mx-16 row-span-5">
-
-                            <div className="bg-white absolute top-0 left-0 right-0 bottom-0 opacity-50">
+                        <div className=" bg-white my-10 mx-16 py-6">
+                            <div className="text-[#5A4739] row-span-3 px-3 font-semibold text-center">
+                                Mandiri - 1450014046391
+                                A.n Gusti Kadek Natia Larasati
                             </div>
-                            <div className="absolute top-0 left-0 right-0 bottom-0">
-                                <div className="grid grid-rows-12">
-
-                                    <div className="text-[#5A4739] mt-4 row-span-3 px-3 font-semibold text-center">
-                                        Mandiri - 1450014046391
-                                        A.n Gusti Kadek Natia Larasati
-                                    </div>
-                                    <div className="text-[#5A4739] mt-3 row-span-3 px-3 font-semibold text-center">
-                                        LinkAja - 0821-2698-1101
-                                        A.n Ngurah Putu Oka Harybuana
-                                    </div>
-                                    <div className="text-[#5A4739] mt-3 row-span-3 px-3 font-semibold text-center">
-                                        Alamat Pengiriman Hadiah Fisik:
-                                        Mutiara Asih Village B3, Jalan Bina Asih II, Jati Asih, Jatiasih, Kota Bekasi, 17423
-                                    </div>
-                                </div>
+                            <div className="text-[#5A4739] mt-4 row-span-3 px-3 font-semibold text-center">
+                                LinkAja - 0821-2698-1101
+                                A.n Ngurah Putu Oka Harybuana
+                            </div>
+                            <div className="text-[#5A4739] mt-4 row-span-3 px-3 font-semibold text-center">
+                                Alamat Pengiriman Hadiah Fisik:
+                                Mutiara Asih Village B3, Jalan Bina Asih II, Jati Asih, Jatiasih, Kota Bekasi, 17423
                             </div>
                         </div>
-                        <div className=" row-span-2 mx-12 self-end text-white text-sm font-semibold text-center">
-                            Merupakan sebuah kehormatan dan kebahagian bag kami apabila Bapak/Ibu/Saudara/i berkenan hadir untuk memberikan doa restu. Atas kehadirannya kami ucapkan terima kasih.
-                        </div>
-                        <div className=" row-span-1 mt-4 mx-4 grid grid-cols-12 gap-4 justify-center">
-                            <div className="bg-[#6F6F6F] rounded-xl py-3 col-span-3 ">
-                                <div className="text-center font-Sanchez text-lg">
-                                    00
-                                </div>
-                                <div className="text-center font-Sanchez text-lg">
-                                    Hari
-                                </div>
+                        <div className="o absolute bottom-8 left-0 right-0">
+                            <div className="  mx-12 self-end text-white text-sm font-semibold text-center">
+                                Merupakan sebuah kehormatan dan kebahagian bag kami apabila Bapak/Ibu/Saudara/i berkenan hadir untuk memberikan doa restu. Atas kehadirannya kami ucapkan terima kasih.
                             </div>
-                            <div className="bg-[#6F6F6F] rounded-xl py-3 col-span-3">
-                                <div className="text-center font-Sanchez text-lg">
-                                    00
-                                </div>
-                                <div className="text-center font-Sanchez text-lg">
-                                    Hari
-                                </div>
-                            </div>
-                            <div className="bg-[#6F6F6F] rounded-xl py-3 col-span-3">
-                                <div className="text-center font-Sanchez text-lg">
-                                    00
-                                </div>
-                                <div className="text-center font-Sanchez text-lg">
-                                    Hari
-                                </div>
-                            </div>
-                            <div className="bg-[#6F6F6F] rounded-xl py-3 col-span-3 ">
-                                <div className="text-center font-Sanchez text-lg">
-                                    00
-                                </div>
-                                <div className="text-center font-Sanchez text-lg">
-                                    Hari
-                                </div>
+                            <div className=" mt-6 mx-4 grid grid-cols-12 gap-4 justify-center">
+                                <Timer />
                             </div>
                         </div>
                     </div>

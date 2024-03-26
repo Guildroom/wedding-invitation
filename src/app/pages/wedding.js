@@ -354,6 +354,7 @@ export default function Wedding() {
                     </div>
                     <div className='grid justify-center pt-6 pb-6'>
                         <button onClick={() => {
+                            window.open('https://maps.app.goo.gl/6K8fxYjM23Dws7DY7?g_st=ic')
                         }} className='bg-[#CEC1BE] text-white rounded-3xl'>
                             <div className=' uppercase mx-6 my-3 font-semibold'>
                                 Google Maps

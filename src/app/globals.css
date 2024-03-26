@@ -35,10 +35,14 @@ body {
 @layer base {
   @font-face {
     font-family: 'daydream';
+    font-weight: normal;
     font-style: normal;
-    font-weight: 400;
-    font-display: swap;
-    src: url('./font/daydream.woff2') format('woff2');
+    src: url('./font/daydream_free-webfont.eot');
+    src: url('./font/daydream_free-webfont.eot?#iefix') format('embedded-opentype'),
+         url('./font/daydream_free-webfont.woff2') format('woff2'),
+         url('./font/daydream_free-webfont.woff') format('woff'),
+         url('./font/daydream_free-webfont.ttf') format('truetype'),
+         url('./font/daydream_free-webfont.svg#daydreamregular') format('svg');
   }
   @font-face {
     font-family: 'YesevaOne';

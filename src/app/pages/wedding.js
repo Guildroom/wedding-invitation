@@ -124,11 +124,6 @@ export default function Wedding() {
             </div>
             {/* Pengantin */}
             <div className="py-9">
-                <div className=' uppercase mt-12 grid justify-items-center text-lg text-[#5A4739]' style={{
-                    fontWeight: 700
-                }}>
-                    Pengantin
-                </div>
                 <div className=" pt-4 lg:px-[20vw]">
                     <div className=" min-h-[70vh] max-h-full relative lg:h-screen">
                         <Image

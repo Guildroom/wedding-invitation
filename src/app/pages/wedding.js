@@ -589,16 +589,16 @@ export default function Wedding() {
                         <div className=" row-span-1 mx-12 mt-3 self-end text-white text-sm font-semibold text-center">
                             Dan jika memberi adalah ungkapan tanda kasih Anda, Anda dapat memberi hadiah melalui :
                         </div>
-                        <div className=" bg-white my-10 mx-16 py-6">
-                            <div className="text-[#5A4739] row-span-3 px-3 font-semibold text-center">
+                        <div className=" bg-white my-10 mx-14 py-6">
+                            <div className="text-[#5A4739] row-span-3 px-3 text-sm font-semibold text-center">
                                 Mandiri - 1450014046391
                                 A.n Gusti Kadek Natia Larasati
                             </div>
-                            <div className="text-[#5A4739] mt-4 row-span-3 px-3 font-semibold text-center">
+                            <div className="text-[#5A4739] mt-4 row-span-3 text-sm px-3 font-semibold text-center">
                                 LinkAja - 0821-2698-1101
                                 A.n Ngurah Putu Oka Harybuana
                             </div>
-                            <div className="text-[#5A4739] mt-4 row-span-3 px-3 font-semibold text-center">
+                            <div className="text-[#5A4739] mt-4 row-span-3 text-sm px-3 font-semibold text-center">
                                 Alamat Pengiriman Hadiah Fisik:
                                 Mutiara Asih Village B3, Jalan Bina Asih II, Jati Asih, Jatiasih, Kota Bekasi, 17423
                             </div>

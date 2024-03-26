@@ -26,16 +26,16 @@ export default function Welcome({ setOpen }) {
                 </div>
                 <div className="row-span-4 grid grid-rows-12 justify-items-center">
                     <div className=" row-span-2" />
-                    <div className='row-span-3 flex items-start text-sm tracking-wide' style={{
+                    <div className=' text-white row-span-3 flex items-start text-sm tracking-wide' style={{
                         fontWeight: 600
                     }}>
                         PAWIWAHAN LAN MEPANDES
                     </div>
-                    <div className='font-daydream text-7xl'>
+                    <div className='text-white font-daydream text-7xl'>
                         Oka & Laras
                     </div>
                 </div>
-                <div className=' row-span-3 grid content-between justify-items-center'>
+                <div className='text-white row-span-3 grid content-between justify-items-center'>
                     <div className=''>
                         Yth. Kepada Bapak/Ibu/Saudara/i
                     </div>
@@ -53,7 +53,7 @@ export default function Welcome({ setOpen }) {
                             </div>
                         </button>
                     </div>
-                    <div className='text-center text-sm'>
+                    <div className='text-white text-center text-sm'>
                         Mohon maaf apabila terdapat kesalahan penulisan nama/gelar
                     </div>
                 </div>

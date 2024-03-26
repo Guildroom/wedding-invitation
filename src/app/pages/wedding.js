@@ -583,10 +583,10 @@ export default function Wedding() {
                         <div className=" row-span-1 pt-6 text-white text-lg font-bold text-center">
                             WEDDING GIFT
                         </div>
-                        <div className=" row-span-1 mx-12 mt-3 text-white text-sm font-semibold text-center">
+                        <div className=" row-span-1 mx-8 mt-3 text-white text-sm font-semibold text-center">
                             Doa Restu Anda merupakan karunia yang sangat berarti bagi kami. Kehadiran Anda tentu kami sangat harapkan.
                         </div>
-                        <div className=" row-span-1 mx-12 mt-3 self-end text-white text-sm font-semibold text-center">
+                        <div className=" row-span-1 mx-8 mt-3 self-end text-white text-sm font-semibold text-center">
                             Dan jika memberi adalah ungkapan tanda kasih Anda, Anda dapat memberi hadiah melalui :
                         </div>
                         <div className=" bg-white my-10 mx-14 py-6">
@@ -604,7 +604,7 @@ export default function Wedding() {
                             </div>
                         </div>
                         <div className="o absolute bottom-8 left-0 right-0">
-                            <div className="  mx-12 self-end text-white text-sm font-semibold text-center">
+                            <div className="  mx-8 self-end text-white text-sm font-semibold text-center">
                                 Merupakan sebuah kehormatan dan kebahagian bag kami apabila Bapak/Ibu/Saudara/i berkenan hadir untuk memberikan doa restu. Atas kehadirannya kami ucapkan terima kasih.
                             </div>
                             <div className=" mt-6 mx-4 grid grid-cols-12 gap-4 justify-center">

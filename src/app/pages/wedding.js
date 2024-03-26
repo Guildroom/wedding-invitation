@@ -189,7 +189,7 @@ export default function Wedding() {
                     }}>
                         Natab & mepandes
                     </div>
-                    <div className=" mx-3 grid grid-cols-12 content-start text-[#F6F2E5] justify-items-center font-YesevaOne">
+                    <div className=" mx-3 grid grid-cols-12 content-start text-[#F6F2E5] justify-items-center font-Glacia">
                         <div className="relative my-7 bg-white col-span-4 w-11/12">
                             <div className=" h-48 z-0 lg:h-[70vh]">
                                 <Image
@@ -273,7 +273,7 @@ export default function Wedding() {
                     }}>
                         RESEPSI
                     </div>
-                    <div className=" mx-3 grid grid-cols-12 content-start text-[#F6F2E5] justify-items-center font-YesevaOne">
+                    <div className=" mx-3 grid grid-cols-12 content-start text-[#F6F2E5] justify-items-center font-Glacia">
                         <div className="relative my-7 bg-white col-span-4 w-11/12">
                             <div className=" h-48 z-0 lg:h-[70vh]">
                                 <Image

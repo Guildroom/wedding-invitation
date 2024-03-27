@@ -1,8 +1,10 @@
 import Image from "next/image"
 import { useEffect, useState } from "react"
+import { useAudio } from "./pages";
 
-export default function Welcome({ setOpen }) {
+export default function Welcome({ toggle,setOpen }) {
 
+    
     const [name, setName] = useState('')
 
     useEffect(() => {
@@ -46,6 +48,7 @@ export default function Welcome({ setOpen }) {
                     </div>
                     <div className=''>
                         <button onClick={() => {
+                            toggle()
                             setOpen(true)
                         }} className='bg-white text-black rounded-3xl'>
                             <div className='mx-6 my-3 font-semibold'>

@@ -15,7 +15,6 @@ export const Timer = () => {
         const interval = setInterval(() => {
             const now = new Date();
             const difference = target.getTime() - now.getTime();
-            console.log(target, now)
             const d = Math.floor(difference / (1000 * 60 * 60 * 24));
             setDays(d);
 

@@ -1,31 +1,9 @@
 "use client"
 import { useEffect, useState } from "react";
 
-const useAudio = url => {
-    const [audio] = useState(typeof Audio !== "undefined" ? new Audio("/videoplayback.m4a"):'');
-    const date = new Date()
-    const [playing, setPlaying] = useState(true);
 
-    const toggle = () => setPlaying(!playing);
 
-    useEffect(() => {
-            playing ? audio?.play() : audio?.pause();
-        },
-        [playing]
-    );
-
-    useEffect(() => {
-        audio?.addEventListener('ended', () => setPlaying(false));
-        return () => {
-            audio?.removeEventListener('ended', () => setPlaying(false));
-        };
-    }, []);
-
-    return [playing, toggle];
-};
-
-const Music = ({url}) => {
-    const [playing, toggle] = useAudio(url);
+const Music = ({playing, toggle}) => {
 
     return (
         // <div>
@@ -43,7 +21,7 @@ const Music = ({url}) => {
                                 onClick={toggle}
                                 className="p-1 ml-auto border-0 text-black float-right text-3xl leading-none font-semibold outline-none focus:outline-none"
                             >
-                                {playing ?
+                                {!playing ?
                                     <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5" viewBox="0 0 20 20"
                                          fill="currentColor">
                                         <path fillRule="evenodd"

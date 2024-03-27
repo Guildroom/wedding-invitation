@@ -4,7 +4,7 @@ import { useEffect, useState } from "react";
 const useAudio = url => {
     const [audio] = useState(typeof Audio !== "undefined" ? new Audio("/videoplayback.m4a"):'');
     const date = new Date()
-    const [playing, setPlaying] = useState(false);
+    const [playing, setPlaying] = useState(true);
 
     const toggle = () => setPlaying(!playing);
 

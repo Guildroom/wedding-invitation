@@ -523,7 +523,7 @@ export default function Wedding() {
                         <div className=" pt-12 text-white text-lg font-bold text-center">
                             DOA DAN UCAPAN
                         </div>
-                        <div className="bg-[#FFFFFF] row-span-11 m-12 opacity-60 rounded-3xl ">
+                        <div className="bg-[#FFFFFF] row-span-11 my-12 mx-8 opacity-60 rounded-3xl ">
                         </div>
                         <div className=" absolute grid justify-center grid-rows-12 h-screen lg:h-[100vh] lg:justify-start lg:pl-12 top-0 left-0 right-0">
                             <div />

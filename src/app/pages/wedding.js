@@ -81,7 +81,7 @@ export default function Wedding() {
                 <div className=' mt-3 grid justify-items-center text-center text-sm text-[#5A4739] lg:mx-48' style={{
                     fontWeight: 600
                 }}>
-                    Atas Asung Kertha Wara Nugraha Ida Sang Hyang Widhi Wasa/Tuhan Yang Maha Esa, perkenankan kai mengundang Bapak/Ibu/Saudara/i pada Upacara Pawiwahan (Pernikahan) dan Mepandes (Potong Gigi) putra-putri kami.
+                    Atas Asung Kertha Wara Nugraha Ida Sang Hyang Widhi Wasa/Tuhan Yang Maha Esa, perkenankan kami mengundang Bapak/Ibu/Saudara/i pada Upacara Pawiwahan (Pernikahan) dan Mepandes (Potong Gigi) putra-putri kami.
                 </div>
             </div>
             {/* Mempelai */}
@@ -258,11 +258,6 @@ export default function Wedding() {
                     }}>
                         29 April 2024
                     </div>
-                    <div className=" pt-1 text-center text-[#5A4739]" style={{
-                        fontWeight: 500
-                    }}>
-                        12.00 - 15.00 WITA
-                    </div>
                     <div className=" px-2 pt-1 text-center text-[#5A4739]" style={{
                         fontWeight: 500
                     }}>
@@ -379,7 +374,7 @@ export default function Wedding() {
                                     priority
                                     style={{
                                         objectFit: "cover",
-                                        objectPosition: '30% 100%'
+                                        objectPosition: '60% 100%'
                                     }}
                                 />
                             </div>
@@ -590,23 +585,35 @@ export default function Wedding() {
                         <div className=" row-span-1 mx-8 mt-3 self-end text-white text-sm font-semibold text-center">
                             Dan jika memberi adalah ungkapan tanda kasih Anda, Anda dapat memberi hadiah melalui :
                         </div>
-                        <div className=" bg-white my-10 mx-14 py-6">
+                        <div className=" bg-white my-10 mx-12 py-6">
                             <div className="text-[#5A4739] row-span-3 px-3 text-sm font-semibold text-center">
-                                Mandiri - 1450014046391
-                                A.n Gusti Kadek Natia Larasati
+                                <div>
+                                    Mandiri - 1450014046391
+                                </div>
+                                <div>
+                                    A.n Gusti Kadek Natia Larasati
+                                </div>
                             </div>
                             <div className="text-[#5A4739] mt-4 row-span-3 text-sm px-3 font-semibold text-center">
-                                LinkAja - 0821-2698-1101
-                                A.n Ngurah Putu Oka Harybuana
+                                <div>
+                                    LinkAja - 0821-2698-1101
+                                </div>
+                                <div>
+                                    A.n Ngurah Putu Oka Harybuana
+                                </div>
                             </div>
                             <div className="text-[#5A4739] mt-4 row-span-3 text-sm px-3 font-semibold text-center">
-                                Alamat Pengiriman Hadiah Fisik:
-                                Mutiara Asih Village B3, Jalan Bina Asih II, Jati Asih, Jatiasih, Kota Bekasi, 17423
+                                <div>
+                                    Alamat Pengiriman Hadiah Fisik:
+                                </div>
+                                <div>
+                                    Mutiara Asih Village B3, Jalan Bina Asih II, Jati Asih, Jatiasih, Kota Bekasi, 17423
+                                </div>
                             </div>
                         </div>
-                        <div className="o absolute bottom-8 left-0 right-0">
+                        <div className="absolute bottom-8 left-0 right-0">
                             <div className="  mx-8 self-end text-white text-sm font-semibold text-center">
-                                Merupakan sebuah kehormatan dan kebahagian bag kami apabila Bapak/Ibu/Saudara/i berkenan hadir untuk memberikan doa restu. Atas kehadirannya kami ucapkan terima kasih.
+                                Merupakan sebuah kehormatan dan kebahagian bagi kami apabila Bapak/Ibu/Saudara/i berkenan hadir untuk memberikan doa restu. Atas kehadirannya kami ucapkan terima kasih.
                             </div>
                             <div className=" mt-6 mx-4 grid grid-cols-12 gap-4 justify-center">
                                 <Timer />

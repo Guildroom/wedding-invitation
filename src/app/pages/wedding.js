@@ -106,7 +106,7 @@ export default function Wedding() {
                                 <div className="text-white uppercase text-sm" style={{
                                     fontWeight: 700
                                 }}>
-                                    Ngurah putu oka harybuana
+                                    Ngurah Putu Oka Harybuana, S.T., M.T.
                                 </div>
 
                                 <div className="text-white uppercase text-sm pt-6" style={{
@@ -141,7 +141,7 @@ export default function Wedding() {
                                 <div className="text-white uppercase text-sm" style={{
                                     fontWeight: 700
                                 }}>
-                                    gusti kadek natia larasati
+                                    Gusti Kadek Natia Larasati, S.T.
                                 </div>
 
                                 <div className="text-white uppercase text-sm pt-6" style={{
@@ -151,7 +151,7 @@ export default function Wedding() {
                                 </div><div className="text-white uppercase text-sm" style={{
                                     fontWeight: 500
                                 }}>
-                                    Gusti Putu Armada & Ketut Praba Wijayanti
+                                    Gusti Putu Armada, Ak. & Ketut Praba Wijayanti, S.T.
                                 </div>
                             </div>
                         </div>
@@ -163,7 +163,7 @@ export default function Wedding() {
                 <div className=" pb-6 uppercase text-lg text-center text-[#5A4739]" style={{
                     fontWeight: 700
                 }}>
-                    Sane Mempendes
+                    Sane Mepandes
                 </div>
                 <div className=" capitalize text-lg text-center text-[#5A4739]" style={{
                     fontWeight: 500

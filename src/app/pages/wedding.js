@@ -103,17 +103,17 @@ export default function Wedding() {
                         />
                         <div className="absolute bottom-[15px] left-0">
                             <div className="bg-[#121010] opacity-75 py-[16px] pl-[8px] pr-[20vw] rounded-r-lg">
-                                <div className="text-white uppercase text-sm" style={{
+                                <div className="text-white uppercase text-xs" style={{
                                     fontWeight: 700
                                 }}>
                                     Ngurah Putu Oka Harybuana, S.T., M.T.
                                 </div>
 
-                                <div className="text-white uppercase text-sm pt-6" style={{
+                                <div className="text-white uppercase text-xs pt-6" style={{
                                     fontWeight: 500
                                 }}>
                                     Putra Pertama dari Pasangan
-                                </div><div className="text-white uppercase text-sm" style={{
+                                </div><div className="text-white uppercase text-xs" style={{
                                     fontWeight: 500
                                 }}>
                                     I Ngurah Mayun & Ni Luh Putu Masyeni
@@ -138,17 +138,17 @@ export default function Wedding() {
                         />
                         <div className="absolute bottom-[15px] left-0">
                             <div className="bg-[#121010] opacity-75 py-[16px] pl-[8px] pr-[20vw] rounded-r-lg">
-                                <div className="text-white uppercase text-sm" style={{
+                                <div className="text-white uppercase text-xs" style={{
                                     fontWeight: 700
                                 }}>
                                     Gusti Kadek Natia Larasati, S.T.
                                 </div>
 
-                                <div className="text-white uppercase text-sm pt-6" style={{
+                                <div className="text-white uppercase text-xs pt-6" style={{
                                     fontWeight: 500
                                 }}>
                                     Putri Kedua dari Pasangan
-                                </div><div className="text-white uppercase text-sm" style={{
+                                </div><div className="text-white uppercase text-xs" style={{
                                     fontWeight: 500
                                 }}>
                                     Gusti Putu Armada, Ak. & Ketut Praba Wijayanti, S.T.

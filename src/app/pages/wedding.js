@@ -102,7 +102,7 @@ export default function Wedding() {
                             }}
                         />
                         <div className="absolute bottom-[15px] left-0">
-                            <div className="bg-[#121010] opacity-75 py-[16px] pl-[8px] pr-[20vw] rounded-r-lg">
+                            <div className="bg-[#121010] opacity-75 py-[16px] pl-[8px] w-[80vw] pr-[20vw] rounded-r-lg">
                                 <div className="text-white uppercase text-xs" style={{
                                     fontWeight: 700
                                 }}>
@@ -116,7 +116,11 @@ export default function Wedding() {
                                 </div><div className="text-white uppercase text-xs" style={{
                                     fontWeight: 500
                                 }}>
-                                    I Ngurah Mayun & Ni Luh Putu Masyeni
+                                    <div>
+                                        I Ngurah Mayun & 
+                                    </div><div>
+                                        Ni Luh Putu Masyeni
+                                    </div>
                                 </div>
                             </div>
                         </div>
@@ -137,7 +141,7 @@ export default function Wedding() {
                             }}
                         />
                         <div className="absolute bottom-[15px] left-0">
-                            <div className="bg-[#121010] opacity-75 py-[16px] pl-[8px] pr-[20vw] rounded-r-lg">
+                            <div className="bg-[#121010] opacity-75 py-[16px] pl-[8px] w-[80vw] pr-[20vw] rounded-r-lg">
                                 <div className="text-white uppercase text-xs" style={{
                                     fontWeight: 700
                                 }}>
@@ -151,7 +155,12 @@ export default function Wedding() {
                                 </div><div className="text-white uppercase text-xs" style={{
                                     fontWeight: 500
                                 }}>
-                                    Gusti Putu Armada, Ak. & Ketut Praba Wijayanti, S.T.
+                                    <div>
+                                        Gusti Putu Armada, Ak. & 
+                                    </div>
+                                    <div>
+                                        Ketuxt Praba Wijayanti, S.T.
+                                    </div>
                                 </div>
                             </div>
                         </div>

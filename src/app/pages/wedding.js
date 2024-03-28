@@ -102,7 +102,7 @@ export default function Wedding() {
                             }}
                         />
                         <div className="absolute bottom-[15px] left-0">
-                            <div className="bg-[#121010] opacity-75 py-[16px] pl-[8px] w-[80vw] pr-[20vw] rounded-r-lg">
+                            <div className="bg-[#121010] opacity-75 py-[16px] pl-[8px] w-[80vw] pr-[5vw] rounded-r-lg">
                                 <div className="text-white uppercase text-xs" style={{
                                     fontWeight: 700
                                 }}>
@@ -141,7 +141,7 @@ export default function Wedding() {
                             }}
                         />
                         <div className="absolute bottom-[15px] left-0">
-                            <div className="bg-[#121010] opacity-75 py-[16px] pl-[8px] w-[80vw] pr-[20vw] rounded-r-lg">
+                            <div className="bg-[#121010] opacity-75 py-[16px] pl-[8px] w-[80vw] pr-[5vw] rounded-r-lg">
                                 <div className="text-white uppercase text-xs" style={{
                                     fontWeight: 700
                                 }}>
@@ -159,7 +159,7 @@ export default function Wedding() {
                                         Gusti Putu Armada, Ak. & 
                                     </div>
                                     <div>
-                                        Ketuxt Praba Wijayanti, S.T.
+                                        Ketut Praba Wijayanti, S.T.
                                     </div>
                                 </div>
                             </div>

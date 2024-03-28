@@ -48,7 +48,7 @@ export default function Welcome({ toggle,setOpen }) {
                     </div>
                     <div className=''>
                         <button onClick={() => {
-                            toggle()
+                            toggle(true)
                             setOpen(true)
                         }} className='bg-white text-black rounded-3xl'>
                             <div className='mx-6 my-3 font-semibold'>

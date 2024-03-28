@@ -8,8 +8,12 @@ export const useAudio = url => {
   const [audio] = useState(typeof Audio !== "undefined" ? new Audio("/videoplayback.m4a"):'');
   const [playing, setPlaying] = useState(false);
 
-  const toggle = () => {
-    setPlaying(!playing)
+  const toggle = (bool) => {
+    if(bool == true || bool == false){
+      setPlaying(true)
+    }else{
+      setPlaying(!playing)
+    }
   };
 
   useEffect(() => {

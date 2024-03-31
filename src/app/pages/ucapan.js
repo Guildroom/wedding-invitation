@@ -65,7 +65,7 @@ export const Ucapan = () => {
                         {apiResult && apiResult.length>0?
                             apiResult.map((data)=>{
                                 return(
-                                    <div className=" text-black text-sm">
+                                    <div className=" text-black text-wrap text-sm">
                                         {/* TODO: need to make this responsive */}
                                         <span className="font-bold">{data.name}</span> {data.comment}
                                     </div>

@@ -63,9 +63,9 @@ export const Ucapan = () => {
                     {/* ucapan */}
                     <div className="mt-4 p-2 opacity-55 h-[50%]  w-[65vw] overflow-scroll rounded-lg bg-white">
                         {apiResult && apiResult.length>0?
-                            apiResult.map((data)=>{
+                            apiResult.map((data,i)=>{
                                 return(
-                                    <div className=" text-black text-wrap text-sm">
+                                    <div key={i} className=" text-black text-wrap text-sm">
                                         {/* TODO: need to make this responsive */}
                                         <span className="font-bold">{data.name}</span> {data.comment}
                                     </div>

@@ -2,11 +2,9 @@ import Image from "next/image";
 import Gallery from "./galery";
 import { useState } from "react";
 import { Timer } from "./timer";
+import { Ucapan } from "./ucapan";
 
 export default function Wedding() {
-    const [name, setName] = useState('')
-    const [ucapan, setUcapan] = useState('')
-
 
     return (
         <div className="bg-[#F6F2E5]">
@@ -102,7 +100,7 @@ export default function Wedding() {
                             }}
                         />
                         <div className="absolute bottom-[15px] left-0">
-                            <div className="bg-[#121010] opacity-75 py-[16px] pl-[8px] w-[80vw] pr-[5vw] rounded-r-lg">
+                            <div className="bg-[#121010] opacity-75 py-[16px] pl-[8px] max-w-[80vw] pr-[5vw] rounded-r-lg">
                                 <div className="text-white uppercase text-xs" style={{
                                     fontWeight: 700
                                 }}>
@@ -141,7 +139,7 @@ export default function Wedding() {
                             }}
                         />
                         <div className="absolute bottom-[15px] left-0">
-                            <div className="bg-[#121010] opacity-75 py-[16px] pl-[8px] w-[80vw] pr-[5vw] rounded-r-lg">
+                            <div className="bg-[#121010] opacity-75 py-[16px] pl-[8px] max-w-[80vw] pr-[5vw] rounded-r-lg">
                                 <div className="text-white uppercase text-xs" style={{
                                     fontWeight: 700
                                 }}>
@@ -529,34 +527,7 @@ export default function Wedding() {
                         />
                     </div>
                     <div className="absolute grid grid-rows-12 h-screen lg:h-[100vh] top-0 left-0 right-0">
-                        <div className=" pt-12 text-white text-lg font-bold text-center">
-                            DOA DAN UCAPAN
-                        </div>
-                        <div className="bg-[#FFFFFF] row-span-11 my-12 mx-8 opacity-60 rounded-3xl ">
-                        </div>
-                        <div className=" absolute grid justify-center grid-rows-12 h-screen lg:h-[100vh] lg:justify-start lg:pl-12 top-0 left-0 right-0">
-                            <div />
-                            <div className="row-span-11 m-12 rounded-3xl ">
-                                <div className=" bg-white mt-10 opacity-100 w-[65vw] rounded-xl lg:w-[15vw]">
-                                    <input placeholder={'Nama'} value={name} onChange={(e) => { setName(e.target.input) }} className="text-black pl-4 lg:py-[2px] w-full rounded-xl" />
-                                </div>
-                                <div className=" bg-white mt-5 opacity-100 w-[65vw] rounded-xl lg:w-[30vw]">
-                                    <input placeholder={'Ucapan'} value={ucapan} onChange={(e) => { setUcapan(e.target.input) }} className="text-black pl-4 pt-2 pb-10 w-full rounded-xl " />
-                                </div>
-                                <div className=" bg-[#6F6F6F] justify-start mt-5 opacity-100 w-[15vw] rounded-2xl">
-                                    <div onClick={() => { }} className="text-white py-1 text-center cursor-pointer">
-                                        Kirim
-                                    </div>
-                                </div>
-                                {/* ucapan */}
-                                <div className="pt-5">
-                                    <div className=" text-black text-sm">
-                                        {/* TODO: need to make this responsive */}
-                                        <span className="font-bold">Name</span> Ucapan
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
+                        <Ucapan/>
                     </div>
                 </div>
             </div>

@@ -1,10 +1,19 @@
 import Image from "next/image";
 import Gallery from "./galery";
-import { useState } from "react";
+import { useEffect, useState } from "react";
 import { Timer } from "./timer";
 import { Ucapan } from "./ucapan";
 
 export default function Wedding() {
+    const [time, setTime] = useState('')
+
+    useEffect(() => {
+        const searchParams = new URLSearchParams(window.location.search);
+        const timeTemp =searchParams.get('time')
+        if(timeTemp){
+            setTime(timeTemp == 'true')
+        }
+      }, []);
 
     return (
         <div className="bg-[#F6F2E5]">
@@ -347,7 +356,7 @@ export default function Wedding() {
                     <div className=" pt-1 text-center text-[#5A4739]" style={{
                         fontWeight: 500
                     }}>
-                        12.00 - 21.00 WITA
+                        12.00 - {time?'17.00':'21.00'} WITA
                     </div>
                     <div className=" px-2 pt-1 text-center text-[#5A4739]" style={{
                         fontWeight: 500

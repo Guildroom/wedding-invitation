@@ -23,7 +23,7 @@ export default function Wedding() {
                     <div className="bg-[#CEC1BE] relative my-7 col-span-4 w-11/12">
                         <div className=" h-64 z-0 lg:h-screen">
                             <Image
-                                src="/2-hal2-tgl 29.jpeg"
+                                src="/2-hal2-tgl 29.webp"
                                 fill
                                 priority
                                 style={{
@@ -40,7 +40,7 @@ export default function Wedding() {
                     <div className="relative my-7 bg-[#CEC1BE] col-span-4 w-11/12">
                         <div className="h-64 z-0 lg:h-screen">
                             <Image
-                                src="/3-hal2-bulan04.jpeg"
+                                src="/3-hal2-bulan04.webp"
                                 fill
                                 priority
                                 style={{
@@ -57,7 +57,7 @@ export default function Wedding() {
                     <div className="relative my-7 bg-[#CEC1BE] col-span-4 w-11/12">
                         <div className=" h-64 z-0 lg:h-screen">
                             <Image
-                                src="/4-hal2-thn24.jpeg"
+                                src="/4-hal2-thn24.webp"
                                 fill
                                 priority
                                 style={{
@@ -101,7 +101,7 @@ export default function Wedding() {
                 <div className=" pt-4 lg:px-[20vw]">
                     <div className=" min-h-[70vh] max-h-full relative lg:h-screen">
                         <Image
-                            src="/5-mempelai pria.jpeg"
+                            src="/5-mempelai pria.webp"
                             fill
                             priority
                             style={{
@@ -139,7 +139,7 @@ export default function Wedding() {
                 <div className=" pt-4 lg:px-[20vw]">
                     <div className=" min-h-[70vh] max-h-full relative lg:h-screen">
                         <Image
-                            src="/6-mempelai wanita.jpeg"
+                            src="/6-mempelai wanita.webp"
                             fill
                             priority
                             style={{
@@ -203,13 +203,13 @@ export default function Wedding() {
                     <div className="pt-6 uppercase text-center text-[#5A4739]" style={{
                         fontWeight: 700
                     }}>
-                        Natab & mepandes
+                        Pawiwahan & Mepandes
                     </div>
                     <div className=" mx-3 grid grid-cols-12 content-start text-[#F6F2E5] justify-items-center font-Glacia">
                         <div className="relative my-7 bg-white col-span-4 w-11/12">
                             <div className=" h-48 z-0 lg:h-[70vh]">
                                 <Image
-                                    src="/7-hal6-tgl29.jpeg"
+                                    src="/7-hal6-tgl29.webp"
                                     fill
                                     priority
                                     style={{
@@ -228,7 +228,7 @@ export default function Wedding() {
                         <div className="relative my-7 bg-white col-span-4 w-11/12">
                             <div className=" h-48 z-0 lg:h-[70vh]">
                                 <Image
-                                    src="/8-hal6-bln04.jpeg"
+                                    src="/8-hal6-bln04.webp"
                                     fill
                                     priority
                                     style={{
@@ -247,7 +247,7 @@ export default function Wedding() {
                         <div className="relative my-7 bg-white col-span-4 w-11/12">
                             <div className=" h-48 z-0 lg:h-[70vh]">
                                 <Image
-                                    src="/9-hal6-thn24.jpeg"
+                                    src="/9-hal6-thn24.webp"
                                     fill
                                     priority
                                     style={{
@@ -288,7 +288,7 @@ export default function Wedding() {
                         <div className="relative my-7 bg-white col-span-4 w-11/12">
                             <div className=" h-48 z-0 lg:h-[70vh]">
                                 <Image
-                                    src="/10-hal6-tgl30.jpeg"
+                                    src="/10-hal6-tgl30.webp"
                                     fill
                                     priority
                                     style={{
@@ -307,7 +307,7 @@ export default function Wedding() {
                         <div className="relative my-7 bg-white col-span-4 w-11/12">
                             <div className=" h-48 z-0 lg:h-[70vh]">
                                 <Image
-                                    src="/11-hal6-bln04.jpeg"
+                                    src="/11-hal6-bln04.webp"
                                     fill
                                     priority
                                     style={{
@@ -326,7 +326,7 @@ export default function Wedding() {
                         <div className="relative my-7 bg-white col-span-4 w-11/12">
                             <div className=" h-48 z-0 lg:h-[70vh]">
                                 <Image
-                                    src="/12-hal6-thn24.jpeg"
+                                    src="/12-hal6-thn24.webp"
                                     fill
                                     priority
                                     style={{
@@ -380,12 +380,13 @@ export default function Wedding() {
                     Our Love Story
                 </div>
                 <div className="grid grid-cols-2 gap-4 px-8">
+                    {/* 1 */}
                     <div className="bg-white">
                         <div className="px-2 pt-2">
 
                             <div className=" relative h-48 lg:h-[70vh]">
                                 <Image
-                                    src="/97d91701-8093-4002-ac60-a78317d26d36.jpg"
+                                    src="/97d91701-8093-4002-ac60-a78317d26d36.webp"
                                     fill
                                     priority
                                     style={{
@@ -402,34 +403,13 @@ export default function Wedding() {
                             03-06-2022
                         </div>
                     </div>
+                    {/* 2 */}
                     <div className="bg-white">
                         <div className="px-2 pt-2">
 
                             <div className=" relative h-48 lg:h-[70vh]">
                                 <Image
-                                    src="/CB903E15-D8A5-4BF4-8CF2-9CB263B97705.jpg"
-                                    fill
-                                    priority
-                                    style={{
-                                        objectFit: "cover",
-                                        objectPosition: '30% 100%'
-                                    }}
-                                />
-                            </div>
-                        </div>
-                        <div className="text-[#706A62] text-center pt-3 text-sm">
-                            The Day I Said Yes
-                        </div>
-                        <div className="text-[#706A62] text-center pt-[1px] text-sm">
-                            20-08-2022
-                        </div>
-                    </div>
-                    <div className="bg-white">
-                        <div className="px-2 pt-2">
-
-                            <div className=" relative h-48 lg:h-[70vh]">
-                                <Image
-                                    src="/IMG_2238.png"
+                                    src="/IMG_2238.webp"
                                     fill
                                     priority
                                     style={{
@@ -446,35 +426,13 @@ export default function Wedding() {
                             08-08-2022
                         </div>
                     </div>
+                    {/* 3 */}
                     <div className="bg-white">
                         <div className="px-2 pt-2">
 
                             <div className=" relative h-48 lg:h-[70vh]">
                                 <Image
-                                    src="/IMG_2496.PNG"
-                                    fill
-                                    priority
-                                    style={{
-                                        objectFit: "cover",
-                                        objectPosition: '30% 50%'
-                                    }}
-                                />
-                            </div>
-                        </div>
-                        <div className="text-[#706A62] text-center pt-3 text-sm">
-                            First Family Meeting
-
-                        </div>
-                        <div className="text-[#706A62] text-center pt-[1px] text-sm">
-                            28-09-2023
-                        </div>
-                    </div>
-                    <div className="bg-white">
-                        <div className="px-2 pt-2">
-
-                            <div className=" relative h-48 lg:h-[70vh]">
-                                <Image
-                                    src="/IMG_1473.png"
+                                    src="/IMG_1473.webp"
                                     fill
                                     priority
                                     style={{
@@ -493,12 +451,60 @@ export default function Wedding() {
                         </div>
 
                     </div>
+                    {/* 4 */}
                     <div className="bg-white">
                         <div className="px-2 pt-2">
 
                             <div className=" relative h-48 lg:h-[70vh]">
                                 <Image
-                                    src="/1B5288D6-FEBC-4273-83A8-ED3591B0942D.jpg"
+                                    src="/CB903E15-D8A5-4BF4-8CF2-9CB263B97705.webp"
+                                    fill
+                                    priority
+                                    style={{
+                                        objectFit: "cover",
+                                        objectPosition: '30% 100%'
+                                    }}
+                                />
+                            </div>
+                        </div>
+                        <div className="text-[#706A62] text-center pt-3 text-sm">
+                            The Day I Said Yes
+                        </div>
+                        <div className="text-[#706A62] text-center pt-[1px] text-sm">
+                            20-08-2022
+                        </div>
+                    </div>
+                    {/* 5 */}
+                    <div className="bg-white">
+                        <div className="px-2 pt-2">
+
+                            <div className=" relative h-48 lg:h-[70vh]">
+                                <Image
+                                    src="/IMG_2496.webp"
+                                    fill
+                                    priority
+                                    style={{
+                                        objectFit: "cover",
+                                        objectPosition: '30% 50%'
+                                    }}
+                                />
+                            </div>
+                        </div>
+                        <div className="text-[#706A62] text-center pt-3 text-sm">
+                            First Family Meeting
+
+                        </div>
+                        <div className="text-[#706A62] text-center pt-[1px] text-sm">
+                            28-09-2023
+                        </div>
+                    </div>
+                    {/* 6 */}
+                    <div className="bg-white">
+                        <div className="px-2 pt-2">
+
+                            <div className=" relative h-48 lg:h-[70vh]">
+                                <Image
+                                    src="/1B5288D6-FEBC-4273-83A8-ED3591B0942D.webp"
                                     fill
                                     priority
                                     style={{
@@ -525,7 +531,7 @@ export default function Wedding() {
                 <div className=" relative h-screen lg:h-[100vh]">
                     <div>
                         <Image
-                            src="/25-doa dan ucapan.jpeg"
+                            src="/25-doa dan ucapan.webp"
                             fill
                             priority
                             style={{
@@ -554,7 +560,7 @@ export default function Wedding() {
                 <div className=" relative h-[100vh] lg:h-[100vh]">
                     <div>
                         <Image
-                            src="/26-wedding gift.jpeg"
+                            src="/26-wedding gift.webp"
                             fill
                             priority
                             style={{

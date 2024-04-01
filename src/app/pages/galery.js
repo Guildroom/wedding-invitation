@@ -1,18 +1,18 @@
 import Image from "next/image";
 
 const photo = [
-    '/13-galeri.jpeg',
-    '/14-galeri.jpeg',
-    '/15-galeri.jpeg',
-    '/16-galeri.jpeg',
-    '/17-galeri.jpeg',
-    '/18-galeri.jpeg',
-    '/19-galeri.jpeg',
-    '/20-galeri.jpeg',
-    '/21-galeri.jpeg',
-    '/22-galeri.jpeg',
-    '/23-galeri.jpeg',
-    '/24-galeri.jpeg',
+    '/13-galeri.webp',
+    '/14-galeri.webp',
+    '/15-galeri.webp',
+    '/16-galeri.webp',
+    '/17-galeri.webp',
+    '/18-galeri.webp',
+    '/19-galeri.webp',
+    '/20-galeri.webp',
+    '/21-galeri.webp',
+    '/22-galeri.webp',
+    '/23-galeri.webp',
+    '/24-galeri.webp',
 ]
 const classForGalery = (i) => {
     const mod = i % 10

@@ -19,7 +19,7 @@ export default function Welcome({ toggle,setOpen }) {
     return (
         <div className="bg-[#121010]">
             <Image className=" opacity-50 object-cover"
-                src="/1-cover awal.jpeg"
+                src="/1-cover awal.webp"
                 fill
                 priority
             />

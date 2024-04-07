@@ -9,11 +9,11 @@ export default function Wedding() {
 
     useEffect(() => {
         const searchParams = new URLSearchParams(window.location.search);
-        const timeTemp =searchParams.get('time')
-        if(timeTemp){
+        const timeTemp = searchParams.get('time')
+        if (timeTemp) {
             setTime(timeTemp == 'true')
         }
-      }, []);
+    }, []);
 
     return (
         <div className="bg-[#F6F2E5]">
@@ -124,7 +124,7 @@ export default function Wedding() {
                                     fontWeight: 500
                                 }}>
                                     <div>
-                                        I Ngurah Mayun & 
+                                        I Ngurah Mayun &
                                     </div><div>
                                         Ni Luh Putu Masyeni
                                     </div>
@@ -163,7 +163,7 @@ export default function Wedding() {
                                     fontWeight: 500
                                 }}>
                                     <div>
-                                        Gusti Putu Armada, Ak. & 
+                                        Gusti Putu Armada, Ak. &
                                     </div>
                                     <div>
                                         Ketut Praba Wijayanti, S.T.
@@ -184,7 +184,7 @@ export default function Wedding() {
                 <div className=" capitalize text-lg text-center text-[#5A4739]" style={{
                     fontWeight: 500
                 }}>
-                    Ni Made Ayu Agatha Widya L.
+                    Ni Made Ayu Aghata Widya L.
                 </div>
                 <div className=" capitalize text-lg text-center text-[#5A4739]" style={{
                     fontWeight: 500
@@ -356,7 +356,7 @@ export default function Wedding() {
                     <div className=" pt-1 text-center text-[#5A4739]" style={{
                         fontWeight: 500
                     }}>
-                        12.00 - {time?'17.00':'21.00'} WITA
+                        12.00 - {time ? '17.00' : '21.00'} WITA
                     </div>
                     <div className=" px-2 pt-1 text-center text-[#5A4739]" style={{
                         fontWeight: 500
@@ -542,7 +542,7 @@ export default function Wedding() {
                         />
                     </div>
                     <div className="absolute grid grid-rows-12 h-screen lg:h-[100vh] top-0 left-0 right-0">
-                        <Ucapan/>
+                        <Ucapan />
                     </div>
                 </div>
             </div>
@@ -571,41 +571,44 @@ export default function Wedding() {
                         />
                     </div>
                     <div className="absolute h-full lg:h-[100vh] top-0 left-0 right-0">
-                        <div className=" row-span-1 pt-6 text-white text-lg font-bold text-center">
-                            WEDDING GIFT
-                        </div>
-                        <div className=" row-span-1 mx-8 mt-3 text-white text-sm font-semibold text-center">
-                            Doa Restu Anda merupakan karunia yang sangat berarti bagi kami. Kehadiran Anda tentu kami sangat harapkan.
-                        </div>
-                        <div className=" row-span-1 mx-8 mt-3 self-end text-white text-sm font-semibold text-center">
-                            Dan jika memberi adalah ungkapan tanda kasih Anda, Anda dapat memberi hadiah melalui :
-                        </div>
-                        <div className=" bg-white my-10 mx-12 py-6">
-                            <div className="text-[#5A4739] row-span-3 px-3 text-sm font-semibold text-center">
-                                <div>
-                                    Mandiri - 1450014046391
+                        {time?null:<div>
+
+                            <div className=" row-span-1 pt-6 text-white text-lg font-bold text-center">
+                                WEDDING GIFT
+                            </div>
+                            <div className=" row-span-1 mx-8 mt-3 text-white text-sm font-semibold text-center">
+                                Doa Restu Anda merupakan karunia yang sangat berarti bagi kami. Kehadiran Anda tentu kami sangat harapkan.
+                            </div>
+                            <div className=" row-span-1 mx-8 mt-3 self-end text-white text-sm font-semibold text-center">
+                                Dan jika memberi adalah ungkapan tanda kasih Anda, Anda dapat memberi hadiah melalui :
+                            </div>
+                            <div className=" bg-white my-10 mx-12 py-6">
+                                <div className="text-[#5A4739] row-span-3 px-3 text-sm font-semibold text-center">
+                                    <div>
+                                        Mandiri - 1450014046391
+                                    </div>
+                                    <div>
+                                        A.n Gusti Kadek Natia Larasati
+                                    </div>
                                 </div>
-                                <div>
-                                    A.n Gusti Kadek Natia Larasati
+                                <div className="text-[#5A4739] mt-4 row-span-3 text-sm px-3 font-semibold text-center">
+                                    <div>
+                                        LinkAja - 0821-2698-1101
+                                    </div>
+                                    <div>
+                                        A.n Ngurah Putu Oka Harybuana
+                                    </div>
+                                </div>
+                                <div className="text-[#5A4739] mt-4 row-span-3 text-sm px-3 font-semibold text-center">
+                                    <div>
+                                        Alamat Pengiriman Hadiah Fisik:
+                                    </div>
+                                    <div>
+                                        Mutiara Asih Village B3, Jalan Bina Asih II, Jati Asih, Jatiasih, Kota Bekasi, 17423
+                                    </div>
                                 </div>
                             </div>
-                            <div className="text-[#5A4739] mt-4 row-span-3 text-sm px-3 font-semibold text-center">
-                                <div>
-                                    LinkAja - 0821-2698-1101
-                                </div>
-                                <div>
-                                    A.n Ngurah Putu Oka Harybuana
-                                </div>
-                            </div>
-                            <div className="text-[#5A4739] mt-4 row-span-3 text-sm px-3 font-semibold text-center">
-                                <div>
-                                    Alamat Pengiriman Hadiah Fisik:
-                                </div>
-                                <div>
-                                    Mutiara Asih Village B3, Jalan Bina Asih II, Jati Asih, Jatiasih, Kota Bekasi, 17423
-                                </div>
-                            </div>
-                        </div>
+                        </div>}
                         <div className="absolute bottom-8 left-0 right-0">
                             <div className="  mx-8 self-end text-white text-sm font-semibold text-center">
                                 Merupakan sebuah kehormatan dan kebahagian bagi kami apabila Bapak/Ibu/Saudara/i berkenan hadir untuk memberikan doa restu. Atas kehadirannya kami ucapkan terima kasih.
